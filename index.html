@@ -182,21 +182,41 @@
       </div>
 
       <div class="footer-privacy">
-        <h6>
-          <a href="#">INFORMATIVA COOKIE E PRIVACY</a>
-        </h6>
+
+        <button onclick="getPrivacy()">
+          <h6>INFORMATIVA COOKIE E PRIVACY</h6>
+        </button>
+
         <h6>-</h6>
-        <h6>
-          <a href="#">NOTE LEGALI</a>
-        </h6>
+
+        <button onclick="getLegal()">
+          <h6>NOTE LEGALI</h6>
+        </button>
+
         <h6>-</h6>
-        <h6>
-          <a href="#">DATI FISCALI</a>
-        </h6>
+
+        <button>
+          <h6>DATI FISCALI</h6>
+        </button>
+
       </div>
     </section>
 
+    <!-- MODAL FOOTER -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2 id="mdlContentTitle"></h2>
+        </div>
+        <div id="mdlContentBody" class="modal-body">
+        </div>
+      </div>
+    </div>
+
   </div>
+  <script src="js/main.js"></script>
+  <script src="js/privacy-legal.js"></script>
 </body>
 
 </html>
