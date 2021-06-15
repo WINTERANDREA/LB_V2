@@ -179,7 +179,7 @@ button {
     fill: transparent;
   }
   to {
-    fill: #fff;
+    fill: #a1cae7;
   }
 }
 
@@ -327,23 +327,21 @@ button {
   flex-direction: column;
 }
 
-.footer-icone {
-  width: 60%;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  transform: rotate(7deg);
-  position: absolute;
-  top: 2%;
-}
-
 .icon-wrapper {
-  justify-self: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  transform: rotateZ(6deg);
 }
 
-.icona {
-  padding: 45px;
+.circle {
+  margin: 20px;
+  display: inline-block;
   border-radius: 50%;
-  transform: rotate(7deg);
+  width: 90px;
+  height: 90px;
+  cursor: pointer;
 }
 
 #linkedin {
