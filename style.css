@@ -250,6 +250,10 @@ button {
   left: 2%;
 }
 
+#grm img {
+  width: 300px;
+}
+
 /* SCHEDA 2 - LE NOSTRE PARTNERSHIP */
 .scheda-2 {
   background: url(./media/sfondi/2sfondo+scritte_taglio+IMG2.svg) no-repeat top center / cover;
@@ -311,12 +315,22 @@ button {
 
 #news {
   position: absolute;
-  bottom: 15%;
+  bottom: 20%;
   left: -35%;
 }
 
 .icon-news {
-  width: 130px;
+  width: 140px;
+}
+
+#jobs {
+  position: absolute;
+  bottom: 10%;
+  left: 25%;
+}
+
+.job-news {
+  width: 200px;
 }
 
 /* FOOTER */
@@ -334,9 +348,9 @@ button {
 .icon-wrapper {
   position: absolute;
   top: 0;
-  left: 0;
+  left: 0px;
   width: 100%;
-  transform: rotateZ(6deg);
+  transform: rotateZ(6deg) translateX(0);
 }
 
 .circle {
@@ -405,7 +419,7 @@ button {
   gap: 10px;
   color: var(--loghi-text);
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .footer-privacy button h6 {
@@ -477,7 +491,7 @@ button {
   width: 100%;
   font-family: Gotham_Medium;
   padding: 20px 16px;
-  background-color: var(--loghi-text);
+  background: linear-gradient(to right, var(--loghi) 80%, var(--main-lightblue));
   color: white;
 }
 
