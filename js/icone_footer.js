@@ -12,8 +12,8 @@ observer = new IntersectionObserver((entries, observer) => {
         translateX: 400,
         translateY:10,
         rotate: '1turn',
-        delay: 300,
-        duration: 8000,
+        delay: 500,
+        duration: 10000,
       });
       observer.unobserve(entry.target);
     } else {
