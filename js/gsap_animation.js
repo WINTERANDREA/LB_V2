@@ -1,7 +1,19 @@
-//register the plugin (just once)
-//gsap.registerPlugin(MotionPathPlugin);
+/* ABOUT */
+// gsap.from(".about-testo", {scrollTrigger: {trigger:"#about", start:"top bottom"}, duration: 3, y:100, opacity:0})
+// gsap.to(".btn-about", {scrollTrigger: {trigger:"#about", start:"top bottom"}, delay: 10, duration: 13, opacity:1})
 
-//gsap.to("#linkedin-2", {duration:5, motionPath:"#footer-svg2"}
+
+let tl = gsap.timeline({scrollTrigger:{
+  trigger:".about-testo",
+  start:"top bottom",
+}})
+.from(".about-testo", {y:100, opacity:0, duration:2})
+.from(".btn-about", { opacity:0, scale: 0, ease:"back", duration:3})
+
+//need help learning GSAP? 
+//check out my courses: https://www.creativeCodingClub.com
+
+/* SCHEDE */
 
 gsap.registerPlugin(ScrollTrigger);
 

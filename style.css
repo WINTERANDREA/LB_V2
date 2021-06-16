@@ -184,8 +184,11 @@ button {
 }
 
 /* ABOUT */
-.about-testo {
+#about {
   position: relative;
+}
+
+.about-testo {
   width: 80%;
   height: 450px;
   background: url(./media/hero/testo_about_centrale.svg) no-repeat center center / contain;
