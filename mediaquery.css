@@ -289,6 +289,10 @@
 }
 
 @media (max-width: 583px) {
+  /* Hero */
+  .navbar-hidden {
+    display: none;
+  }
   .hero {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
@@ -372,9 +376,7 @@
   .hero-brain {
     height: 440px;
   }
-  .navbar-hidden {
-    height: 50px;
-  }
+
   /* Footer */
   .icon-wrapper {
     width: 68%;
