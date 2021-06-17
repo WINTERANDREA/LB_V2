@@ -43,6 +43,7 @@ window.addEventListener('load', (event) => {
           translateY:10,
           rotate: '1turn',
           delay: 1500,
+          opacity: 1,
           duration: 10000})
           observer.unobserve(entry.target)
       } else {
