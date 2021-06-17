@@ -372,6 +372,9 @@
   .hero-brain {
     height: 440px;
   }
+  .navbar-hidden {
+    height: 50px;
+  }
   /* Footer */
   .icon-wrapper {
     width: 68%;

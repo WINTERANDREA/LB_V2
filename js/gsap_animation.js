@@ -10,10 +10,10 @@ let tl = gsap.timeline({scrollTrigger:{
 
 gsap.registerPlugin(ScrollTrigger);
 
-gsap.from("#cloud", {scrollTrigger: {trigger:"#cloud",  start:"top bottom"}, duration: 4, x:-2100, y:600, opacity:0, rotate: -40, scrub:.5})
+gsap.from("#cloud", {scrollTrigger: {trigger:"#cloud",  start:"top center"}, duration: 2, x:-2100, y:600, opacity:0, rotate: -40, scrub:.5})
 
-gsap.from("#partner", {scrollTrigger: {trigger:"#partner", start:"top 50%"}, duration: 4, x:2100, opacity:0, rotate: 10, scrub:.5})
+gsap.from("#partner", {scrollTrigger: {trigger:"#partner", start:"top 50%"}, duration: 2, x:2100, opacity:0, rotate: 10, scrub:.5})
 
-gsap.from("#referenze", {scrollTrigger: {trigger:"#referenze", start:"top center"}, duration: 4, x:-1900, opacity:0, rotate: -20, scrub:.5})
+gsap.from("#referenze", {scrollTrigger: {trigger:"#referenze", start:"top center"}, duration: 2, x:-1900, opacity:0, rotate: -20, scrub:.5})
 
 
