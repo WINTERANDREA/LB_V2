@@ -278,6 +278,14 @@ button {
   justify-content: center;
 }
 
+#a365 img {
+  width: 160px;
+}
+
+#zohodesk img {
+  width: 150px;
+}
+
 /* SCHEDA 3 - LE NOSTRE REFERENZE */
 .scheda-3 {
   background: url(./media/sfondi/3sfondo+scritte_taglio+IMG.svg) no-repeat top center / cover;

@@ -160,6 +160,56 @@
   .footer-privacy {
     margin-right: 50px;
   }
+  /* Privacy */
+  .modal-content {
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  .modal-header {
+    z-index: 9999;
+  }
+
+  #mdlContentBody {
+    margin-top: 100px;
+    height: 100%;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  #myModal a {
+    color: var(--main-lightblue);
+  }
+
+  h5 strong,
+  h4 strong {
+    color: var(--cyan);
+  }
+  .col-md-6 > h3 {
+    color: var(--cyan);
+  }
+
+  .col-md-6.text-center:first-child {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .col-md-6.text-center:nth-child(2) {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .col-md-4.text-center {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-left: 5px;
+  }
 }
 
 @media (max-width: 768px) {
@@ -242,9 +292,19 @@
   .hero {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+    padding-top: 32px;
   }
   .hero-testo {
     height: 140px;
+  }
+  .hero-brain {
+    background: url(./media/hero/cervello-small.svg) no-repeat center center / cover;
+    height: 518px;
+  }
+
+  .hero-logo {
+    width: 70%;
+    margin-bottom: 46px;
   }
   /* About */
   .about-testo {
@@ -308,6 +368,10 @@
 }
 
 @media (max-width: 442px) {
+  /* Hero */
+  .hero-brain {
+    height: 440px;
+  }
   /* Footer */
   .icon-wrapper {
     width: 68%;
@@ -318,5 +382,161 @@
     width: 70px;
     height: 70px;
     margin: 5px;
+  }
+  /* About */
+  .about-testo {
+    width: 95%;
+  }
+
+  /* Schede */
+  .scheda-1 {
+    width: 184%;
+  }
+
+  .cloud-grid {
+    grid-template-columns: repeat(1, 300px);
+    gap: 70px;
+    margin-left: -18%;
+    margin-top: 28%;
+  }
+
+  #grm img {
+    width: 215px;
+  }
+
+  .item-testo h1 {
+    font-size: 1em;
+  }
+
+  .wb-testo {
+    bottom: 14px;
+  }
+
+  .grm-testo {
+    bottom: -58px;
+  }
+
+  .scheda-2 {
+    width: 173%;
+    margin-top: -958px;
+  }
+
+  #imio img {
+    width: 160px;
+  }
+
+  #imio {
+    margin-left: 50px;
+  }
+
+  #a365 {
+    margin-left: 144px;
+    margin-top: 127px;
+  }
+
+  #zohodesk {
+    margin-top: 184px;
+  }
+  #zohodesk img {
+    width: 130px;
+  }
+
+  #a365 img {
+    width: 130px;
+  }
+
+  .scheda-3 {
+    margin-left: -121px;
+  }
+
+  .icon-clienti {
+    width: 120px;
+  }
+
+  .icon-news {
+    width: 125px;
+  }
+
+  .job-news {
+    width: 180px;
+  }
+
+  #news {
+    left: 29%;
+    bottom: 34%;
+  }
+
+  #clienti {
+    top: 6%;
+  }
+
+  #jobs {
+    left: 16%;
+    bottom: -2%;
+  }
+
+  /* Footer */
+  .icon-wrapper {
+    top: -68px;
+  }
+
+  .footer-grid h4 {
+    font-size: 20px;
+  }
+
+  .footer-grid p {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  .footer-grid {
+    margin-top: 194px;
+    padding-left: 38px;
+    padding-bottom: 40px;
+  }
+  .footer-privacy {
+    font-size: 13px;
+  }
+
+  .footer-privacy button h6 {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 370px) {
+  /* Schede */
+  .scheda-2 {
+    margin-top: -1028px;
+  }
+  .scheda-3 {
+    margin-left: -77px;
+    margin-top: -1077px;
+  }
+  .referenze-grid {
+    margin-left: -34px;
+  }
+  .icon-clienti {
+    width: 100px;
+  }
+
+  .icon-news {
+    width: 105px;
+  }
+
+  .job-news {
+    width: 160px;
+  }
+
+  .circle {
+    width: 65px;
+    height: 65px;
+  }
+
+  .icon-wrapper {
+    width: 71%;
+    left: -70px;
+  }
+
+  .footer-privacy button h6 {
+    font-size: 11px;
   }
 }
