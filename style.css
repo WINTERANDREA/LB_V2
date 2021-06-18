@@ -56,7 +56,7 @@ body {
 }
 
 .container {
-  max-width: 1900px;
+  max-width: 2880px;
   margin: 0 auto;
   background: #fff;
   overflow-x: hidden;
@@ -257,7 +257,7 @@ button {
 .hero-testo {
   position: relative;
   width: 100%;
-  height: 250px;
+  height: 300px;
   margin: 10px auto;
   padding-bottom: 5%;
 }
@@ -306,9 +306,11 @@ button {
 /* SCHEDA 1 - SOLUZIONI IN CLOUD */
 
 .scheda-1 {
-  background: url(./media/sfondi/1sfondo+scritte_taglio+IMG.svg) no-repeat top center / cover;
+  background: url(./media/sfondi/1sfondo+scritte_taglio+IMG_new.svg) no-repeat top center / cover;
+  width: 115%;
   height: 1600px;
-  margin-top: 60px;
+  margin-left: -50px;
+  margin-top: 140px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -363,9 +365,10 @@ button {
 
 /* SCHEDA 2 - LE NOSTRE PARTNERSHIP */
 .scheda-2 {
-  background: url(./media/sfondi/2sfondo+scritte_taglio+IMG2.svg) no-repeat top center / cover;
+  background: url(./media/sfondi/2sfondo+scritte_taglio+IMG_new.svg) no-repeat top center / cover;
+  width: 125%;
   margin-top: -1100px;
-  margin-left: -200px;
+  margin-left: -237px;
   height: 1600px;
   display: flex;
   justify-content: center;
@@ -407,9 +410,11 @@ button {
 
 /* SCHEDA 3 - LE NOSTRE REFERENZE */
 .scheda-3 {
-  background: url(./media/sfondi/3sfondo+scritte_taglio+IMG.svg) no-repeat top center / cover;
-  margin-top: -1250px;
-  height: 950px;
+  background: url(./media/sfondi/3sfondo+scritte_taglio+IMG_new.svg) no-repeat top center / cover;
+  margin-top: -1170px;
+  margin-left: -600px;
+  height: 1000px;
+  width: 130%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -463,8 +468,8 @@ button {
 /* FOOTER */
 .sfondo-footer {
   background: url(./media/sfondi/sfondo-footer.svg) no-repeat top center / cover;
-  margin-top: -180px;
-  height: 500px;
+  margin-top: -370px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -490,64 +495,32 @@ button {
   opacity: 0;
 }
 
-#linkedin {
-  background: url(./media/icone/Linkedin_icon.svg) no-repeat center center / cover;
+.circle:hover {
+  box-shadow: inset 3px 3px 10px 0px rgba(0, 0, 0, 0.6);
 }
 
-#linkedin:hover,
-#linkedin:focus,
-#linkedin:active {
-  background: linear-gradient(145deg, rgba(255, 255, 255, 1), transparent), url(./media/icone/Linkedin_icon.svg) no-repeat center center / cover;
+#linkedin {
+  background: url(./media/icone/Linkedin_icon.svg) no-repeat center center / cover;
 }
 
 #whatsapp {
   background: url(./media/icone/Whatapp_icon.svg) no-repeat center center / cover;
 }
 
-#whatsapp:hover,
-#whatsapp:focus,
-#whatsapp:active {
-  background: linear-gradient(145deg, rgba(255, 255, 255, 1), transparent), url(./media/icone/Whatapp_icon.svg) no-repeat center center / cover;
-}
-
 #facebook {
   background: url(./media/icone/Facebook_icon.svg) no-repeat center center / cover;
-}
-
-#facebook:hover,
-#facebook:focus,
-#facebook:active {
-  background: linear-gradient(145deg, rgba(255, 255, 255, 1), transparent), url(./media/icone/Facebook_icon.svg) no-repeat center center / cover;
 }
 
 #skype {
   background: url(./media/icone/Skype_icon.svg) no-repeat center center / cover;
 }
 
-#skype:hover,
-#skype:focus,
-#skype:active {
-  background: linear-gradient(145deg, rgba(255, 255, 255, 1), transparent), url(./media/icone/Skype_icon.svg) no-repeat center center / cover;
-}
-
 #email {
   background: url(./media/icone/Mail_icon.svg) no-repeat center center / cover;
 }
 
-#email:hover,
-#email:focus,
-#email:active {
-  background: linear-gradient(145deg, rgba(255, 255, 255, 1), transparent), url(./media/icone/Mail_icon.svg) no-repeat center center / cover;
-}
-
 #telephone {
   background: url(./media/icone/Tel_icon.svg) no-repeat center center / cover;
-}
-
-#telephone:hover,
-#telephone:focus,
-#telephone:active {
-  background: linear-gradient(145deg, rgba(255, 255, 255, 1), transparent), url(./media/icone/Tel_icon.svg) no-repeat center center / cover;
 }
 
 .footer-grid {

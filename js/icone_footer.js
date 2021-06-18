@@ -11,7 +11,6 @@
 
 var translateX;
 function setTranslateX(){
-  console.log(window.screen.width)
   let screenWidth = window.screen.width
   if(screenWidth > 1400){
     translateX = 400
@@ -36,7 +35,6 @@ window.addEventListener('load', (event) => {
   observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
       if (entry.intersectionRatio > 0) {
-        console.log('in the view');
         anime({
           targets: '.circle',
           translateX: translateX,
@@ -47,7 +45,6 @@ window.addEventListener('load', (event) => {
           duration: 10000})
           observer.unobserve(entry.target)
       } else {
-        console.log('out of view');
       }
     })
     
