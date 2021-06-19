@@ -12,7 +12,11 @@
 var translateX;
 function setTranslateX(){
   let screenWidth = window.screen.width
-  if(screenWidth > 1400){
+  if(screenWidth > 2400){
+    translateX = 800
+  } else if(screenWidth > 1900) {
+    translateX = 600
+  } else if(screenWidth > 1400) {
     translateX = 400
   } else if(screenWidth > 1150) {
     translateX = 300
