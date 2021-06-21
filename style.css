@@ -154,41 +154,6 @@ button {
   animation: fill 1s;
 }
 
-@keyframes fill {
-  from {
-    width: 0;
-  }
-  to {
-    width: 100%;
-  }
-}
-@keyframes empty {
-  from {
-    width: 100%;
-  }
-  to {
-    width: 0;
-  }
-}
-
-@keyframes scaleIn {
-  from {
-    transform: scale(1);
-  }
-  to {
-    transform: scale(1.2);
-  }
-}
-
-@keyframes scaleOut {
-  from {
-    transform: scale(1.2);
-  }
-  to {
-    transform: scale(1);
-  }
-}
-
 .btn-text {
   display: flex;
   height: 100%;
@@ -546,6 +511,10 @@ button {
   line-height: 28px;
 }
 
+.footer-grid a:hover p {
+  color: var(--light-grey);
+}
+
 .footer-privacy {
   font-family: Gotham_Book;
   font-size: 28px;
@@ -646,6 +615,15 @@ button {
   padding: 10px 30px;
 }
 
+.col-md-4 {
+  display: none;
+}
+
+.col-md-4.text-center {
+  display: block;
+  margin-left: -30px;
+}
+
 /* Add Animation */
 @-webkit-keyframes slideIn {
   from {
@@ -687,11 +665,37 @@ button {
   }
 }
 
-.col-md-4 {
-  display: none;
+@keyframes fill {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes empty {
+  from {
+    width: 100%;
+  }
+  to {
+    width: 0;
+  }
 }
 
-.col-md-4.text-center {
-  display: block;
-  margin-left: -30px;
+@keyframes scaleIn {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes scaleOut {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
 }
