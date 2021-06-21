@@ -507,7 +507,7 @@
   /* Hero */
 
   .hero {
-    height: 80vh;
+    min-height: 80vh;
   }
   .hero-brain {
     width: 200%;

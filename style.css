@@ -194,7 +194,7 @@ button {
 
 .hero {
   background: url(./media/hero/sfondo_header_completo.svg) no-repeat center center / cover;
-  height: 100%;
+  min-height: 800px;
   border-bottom-left-radius: 17%;
   border-bottom-right-radius: 17%;
   display: flex;
@@ -261,10 +261,10 @@ button {
 
 .activate-socrate {
   position: absolute;
-  top: 10%;
+  top: 2%;
   width: 100%;
   height: 3%;
-  background-color: red;
+  background-color: transparent;
 }
 .about-testo {
   width: 80%;

@@ -42,8 +42,8 @@
       targets: '#testoCorsivoSocrate path',
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: 'linear',
-      duration: 200,
-      delay: function (el, i) { return i * 200 },
+      duration: 150,
+      delay: function (el, i) { return i * 150 },
       loop: false,
       complete: function(){
         document.querySelector('#testoCorsivoSocrate').style.animation = 'fill-opacity 1s linear forwards'
@@ -58,4 +58,6 @@
     
   });
 
-  observer.observe(testoSocrate);
+
+    observer.observe(testoSocrate);
+
