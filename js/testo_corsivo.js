@@ -1,6 +1,6 @@
 /* TESTO CORSIVO */
 
-  const testoSocrate = document.querySelector('.hero-testo');
+  const testoSocrate = document.querySelector('.activate-socrate');
   observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
       if (entry.intersectionRatio > 0) {

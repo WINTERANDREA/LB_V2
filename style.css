@@ -259,6 +259,13 @@ button {
   position: relative;
 }
 
+.activate-socrate {
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  height: 3%;
+  background-color: red;
+}
 .about-testo {
   width: 80%;
   height: 450px;
