@@ -4,16 +4,14 @@
   .navbar-hidden {
     height: 200px;
   }
-  .hero-brain {
-    height: 1000px;
-  }
+
   .hero-testo {
     height: 450px;
   }
   /* About */
   .about-testo {
-    height: 760px;
-    width: 90%;
+    height: 600px;
+    width: 80%;
   }
   .btn-wrapper {
     width: 300px;
@@ -168,6 +166,10 @@
   .hero {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
+  }
+
+  .hero-brain {
+    width: 140%;
   }
   .hero-testo {
     height: 200px;
@@ -340,6 +342,9 @@
   .hero-testo {
     height: 150px;
   }
+  .hero-brain {
+    width: 160%;
+  }
   /* About */
   .about-testo {
     width: 80%;
@@ -427,14 +432,12 @@
   }
   .hero-brain {
     /* background: url(./media/hero/cervello-small.svg) no-repeat center center / cover; */
-    background: url(./media/hero/cervello-animato.svg) no-repeat center center / cover;
-    height: 518px;
+    /* background: url(./media/hero/cervello-animato.svg) no-repeat center center / cover;
+    height: 518px; */
+
+    width: 180%;
   }
 
-  .hero-logo {
-    width: 70%;
-    margin-bottom: 46px;
-  }
   /* About */
   .about-testo {
     width: 85%;
@@ -502,14 +505,29 @@
 
 @media (max-width: 442px) {
   /* Hero */
+
+  .hero {
+    height: 80vh;
+  }
   .hero-brain {
-    height: 440px;
+    width: 200%;
   }
 
   .hero-testo {
     height: 70px;
     width: 120%;
     margin-left: -30px;
+  }
+
+  .electron {
+    width: 20px;
+    height: 20px;
+    top: -10px;
+    left: -16px;
+  }
+
+  #testoCorsivoSocrate {
+    margin-top: 80px;
   }
 
   /* Footer */
