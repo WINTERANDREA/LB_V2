@@ -5,8 +5,12 @@
     height: 200px;
   }
 
+  .hero {
+    min-height: 120vh;
+  }
+
   .hero-testo {
-    height: 450px;
+    height: 300px;
   }
   /* About */
   .about-testo {
