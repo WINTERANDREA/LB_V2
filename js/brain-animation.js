@@ -320,7 +320,7 @@ anime({
       opacity: 1,
       scale: 1,
       direction: 'reverse',
-      duration: 7000,
+      duration: 5000,
       easing: 'easeInCirc',
       complete: function(anim) {
         document.querySelector('#electron_7dx').style.animation = 'fadeOut 1s linear forwards'
