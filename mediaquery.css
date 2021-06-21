@@ -37,6 +37,14 @@
     height: 1200px;
   }
 
+  .cloud-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    gap: 350px;
+    margin-left: 14%;
+    margin-top: 10%;
+  }
+
   /* Footer */
 
   .sfondo-footer {
@@ -122,8 +130,8 @@
     margin-left: -550px;
   }
   .cloud-grid {
-    gap: 60px;
-    margin-left: 10%;
+    gap: 100px;
+    margin-left: 8%;
     margin-top: 15%;
   }
   .partner-grid {
@@ -240,7 +248,7 @@
 
   #news {
     right: 20%;
-    bottom: 28%;
+    top: 14%;
   }
 
   #jobs {
@@ -374,6 +382,7 @@
 
   #news {
     left: 40%;
+    top: 18%;
   }
 
   #jobs {
@@ -465,7 +474,7 @@
 
   #news {
     left: 35%;
-    bottom: 33%;
+    top: 14%;
   }
 
   #jobs {
@@ -596,7 +605,7 @@
 
   #news {
     left: 33%;
-    bottom: 45%;
+    top: 12%;
   }
 
   #clienti {
