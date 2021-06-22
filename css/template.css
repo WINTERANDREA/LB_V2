@@ -247,6 +247,15 @@ img {
   img {
     width: 60%;
   }
+  /* Hero */
+
+  .hero.hero-t {
+    min-height: 400px;
+  }
+
+  .img-laterale-sezione {
+    display: none;
+  }
   /* SECTION */
   #sezione-a365 {
     width: 90%;
