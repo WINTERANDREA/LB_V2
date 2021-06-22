@@ -1,14 +1,3 @@
-
-// window.onresize = resizeWidth;
-// function resizeWidth(){
-//   console.log(window.screen.width)
-//   let screenWidth = window.screen.width
-//   if(screenWidth > 1500){
-//     translateX = 400
-//   }
-//   console.log(translateX)
-// }
-
 var translateX;
 function setTranslateX(){
   let screenWidth = window.screen.width
@@ -44,7 +33,7 @@ window.addEventListener('load', (event) => {
           translateX: translateX,
           translateY:10,
           rotate: '1turn',
-          delay: 1500,
+          delay: 1000,
           opacity: 1,
           duration: 10000})
           observer.unobserve(entry.target)
@@ -57,3 +46,12 @@ window.addEventListener('load', (event) => {
   observer.observe(footerIcon);
     });
 
+// window.onresize = resizeWidth;
+// function resizeWidth(){
+//   console.log(window.screen.width)
+//   let screenWidth = window.screen.width
+//   if(screenWidth > 1500){
+//     translateX = 400
+//   }
+//   console.log(translateX)
+// }

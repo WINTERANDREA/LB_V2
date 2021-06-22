@@ -11,26 +11,26 @@
 
 @font-face {
   font-family: Gotham_Bold;
-  src: url(./media/font/Gotham/Gotham_Bold.otf) format("opentype");
+  src: url(../media/font/Gotham/Gotham_Bold.otf) format("opentype");
 }
 
 @font-face {
   font-family: Gotham_Book;
-  src: url(./media/font/Gotham/Gotham_Book.otf) format("opentype");
+  src: url(../media/font/Gotham/Gotham_Book.otf) format("opentype");
 }
 
 @font-face {
   font-family: Gotham_Light;
-  src: url(./media/font/Gotham/Gotham_Light.otf) format("opentype");
+  src: url(../media/font/Gotham/Gotham_Light.otf) format("opentype");
 }
 
 @font-face {
   font-family: Gotham_Medium;
-  src: url(./media/font/Gotham/Gotham_Medium.otf) format("opentype");
+  src: url(../media/font/Gotham/Gotham_Medium.otf) format("opentype");
 }
 @font-face {
   font-family: Gotham_Thin;
-  src: url(./media/font/Gotham/Gotham_Thin.otf) format("opentype");
+  src: url(../media/font/Gotham/Gotham_Thin.otf) format("opentype");
 }
 
 * {
@@ -169,7 +169,7 @@ button {
 
 .btn-shadow-left,
 .btn-shadow-right {
-  background: url(./media/sfondi/ombra-button.png) no-repeat;
+  background: url(../media/sfondi/ombra-button.png) no-repeat;
   bottom: -26px;
   height: 26px;
   position: absolute;
@@ -193,7 +193,7 @@ button {
 }
 
 .hero {
-  background: url(./media/hero/sfondo_header_completo.svg) no-repeat center center / cover;
+  background: url(../media/hero/sfondo_header_completo.svg) no-repeat center center / cover;
   min-height: 800px;
   border-bottom-left-radius: 20%;
   border-bottom-right-radius: 20%;
@@ -258,7 +258,7 @@ button {
 .about-testo {
   width: 80%;
   height: 450px;
-  background: url(./media/hero/testo_about_centrale.svg) no-repeat center center / contain;
+  background: url(../media/hero/testo_about_centrale.svg) no-repeat center center / contain;
   margin: 0 auto;
   margin-top: 100px;
   display: flex;
@@ -276,7 +276,7 @@ button {
 /* SCHEDA 1 - SOLUZIONI IN CLOUD */
 
 .scheda-1 {
-  background: url(./media/sfondi/1sfondo+scritte_taglio+IMG_new.svg) no-repeat top center / cover;
+  background: url(../media/sfondi/1sfondo+scritte_taglio+IMG_new.svg) no-repeat top center / cover;
   width: 115%;
   height: 1600px;
   margin-left: -50px;
@@ -335,7 +335,7 @@ button {
 
 /* SCHEDA 2 - LE NOSTRE PARTNERSHIP */
 .scheda-2 {
-  background: url(./media/sfondi/2sfondo+scritte_taglio+IMG_new.svg) no-repeat top center / cover;
+  background: url(../media/sfondi/2sfondo+scritte_taglio+IMG_new.svg) no-repeat top center / cover;
   width: 125%;
   margin-top: -1100px;
   margin-left: -237px;
@@ -380,7 +380,7 @@ button {
 
 /* SCHEDA 3 - LE NOSTRE REFERENZE */
 .scheda-3 {
-  background: url(./media/sfondi/3sfondo+scritte_taglio+IMG_new.svg) no-repeat top center / cover;
+  background: url(../media/sfondi/3sfondo+scritte_taglio+IMG_new.svg) no-repeat top center / cover;
   margin-top: -1170px;
   margin-left: -600px;
   height: 1000px;
@@ -437,7 +437,7 @@ button {
 
 /* FOOTER */
 .sfondo-footer {
-  background: url(./media/sfondi/sfondo-footer.svg) no-repeat top center / cover;
+  background: url(../media/sfondi/sfondo-footer.svg) no-repeat top center / cover;
   margin-top: -370px;
   height: 100%;
   display: flex;
@@ -470,27 +470,27 @@ button {
 }
 
 #linkedin {
-  background: url(./media/icone/Linkedin_icon.svg) no-repeat center center / cover;
+  background: url(../media/icone/Linkedin_icon.svg) no-repeat center center / cover;
 }
 
 #whatsapp {
-  background: url(./media/icone/Whatapp_icon.svg) no-repeat center center / cover;
+  background: url(../media/icone/Whatapp_icon.svg) no-repeat center center / cover;
 }
 
 #facebook {
-  background: url(./media/icone/Facebook_icon.svg) no-repeat center center / cover;
+  background: url(../media/icone/Facebook_icon.svg) no-repeat center center / cover;
 }
 
 #skype {
-  background: url(./media/icone/Skype_icon.svg) no-repeat center center / cover;
+  background: url(../media/icone/Skype_icon.svg) no-repeat center center / cover;
 }
 
 #email {
-  background: url(./media/icone/Mail_icon.svg) no-repeat center center / cover;
+  background: url(../media/icone/Mail_icon.svg) no-repeat center center / cover;
 }
 
 #telephone {
-  background: url(./media/icone/Tel_icon.svg) no-repeat center center / cover;
+  background: url(../media/icone/Tel_icon.svg) no-repeat center center / cover;
 }
 
 .footer-grid {
