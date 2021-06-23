@@ -250,7 +250,7 @@ img {
   /* Hero */
 
   .hero.hero-t {
-    min-height: 400px;
+    min-height: 75vh;
   }
 
   .img-laterale-sezione {
@@ -259,5 +259,28 @@ img {
   /* SECTION */
   #sezione-a365 {
     width: 90%;
+  }
+
+  .link-sito {
+    font-size: 12px;
+  }
+
+  /* Menu */
+  .menu-links {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .menu-link a {
+    font-size: 50px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 370px) {
+  .link-sito {
+    font-size: 11px;
   }
 }
