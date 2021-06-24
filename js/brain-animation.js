@@ -1,39 +1,4 @@
-/* LOAD BRAIN SVG */ 
- var svgs = [
-    { file: "media/hero/cervello-animato.svg", container: ".hero-brain" }
-  ];
 
-    svgs.forEach(loadSVG);
-  
-  function loadSVG(svg) {
-    
-    var request = new XMLHttpRequest();
-    request.open("GET", svg.file, true);
-    request.onload = function() {
-      
-      if (request.status >= 200 && request.status < 400) {
-        
-        insert(svg, request.responseText);
-      }
-    };
-    request.onerror = function() {
-
-    };
-    request.send();
-  }
-
-  function insert(svg, data) {
-    
-    
-    var container = document.querySelector(svg.container);
-    container.insertAdjacentHTML("afterbegin", data);
-    
-    startAnimation()
-    
-  }
-  
-  
-  function startAnimation(){
     /* Lefh line path */
     var path1sx = anime.path('#Linea_1_SX');
     var path2sx = anime.path('#Linea_2_SX');
@@ -72,18 +37,6 @@
     var path16dx = anime.path('#Linea_16_DX');
     var path17dx = anime.path('#Linea_17_DX');
 
-    setTimeout(function(){ 
-      
-// anime({
-//       targets: '#pallino_1sx',
-//       opacity: 0,
-//       width: 200,
-//       easing: 'easeInCirc',
-//       duration: 3000,
-//       complete: function(anim) {
-//         console.log(anim)
-//   }
-// });
       
       anime({
       targets: '#electron_1sx',
@@ -401,7 +354,4 @@ anime({
         document.querySelector('#electron_16dx').style.animation = 'fadeOut 1s linear forwards'
   }
 });
-
- },100);
-  }
 

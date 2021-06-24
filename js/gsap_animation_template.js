@@ -3,7 +3,6 @@
 gsap.registerPlugin(ScrollTrigger);
 
 
-gsap.from(".logo-sezione", {scrollTrigger: {trigger:".logo-sezione", start:"top 20%"}, duration: 1, y:-300, opacity:0})
 gsap.from(".titolo-sezione", {scrollTrigger: {trigger:".titolo-sezione", start:"top 80%"}, duration: 1, y:200, opacity:0})
 gsap.from(".paragrafo-1", {scrollTrigger: {trigger:".paragrafo-1", start:"top 80%"}, duration: 1, y:200, opacity:0})
 gsap.from(".paragrafo-2", {scrollTrigger: {trigger:".paragrafo-2", start:"top 80%"}, duration: 1, y:200, opacity:0})

@@ -1,5 +1,14 @@
 /* BIG SCREEN */
 @media (min-width: 1900px) {
+  /* Menu */
+  .menu-close {
+    top: 5%;
+  }
+
+  .menu-close-img {
+    width: 90px;
+    height: 90px;
+  }
   /* Hero */
   .navbar-hidden {
     height: 200px;
@@ -66,6 +75,11 @@
 
 /* GIANT SCREEN */
 @media (min-width: 2500px) {
+  /* Menu */
+  .menu-close {
+    top: 5%;
+    left: 98%;
+  }
   /* Hero */
   .hero-brain {
     position: relative;
@@ -115,6 +129,16 @@
 
 /* __________________LAPTOP__________________ */
 @media (max-width: 1356px) {
+  /* Menu */
+  .menu-close {
+    top: 6%;
+    left: 96%;
+  }
+
+  .menu-close-img {
+    width: 75px;
+    height: 75px;
+  }
   /* Hero */
 
   .hero-brain {
@@ -176,6 +200,32 @@
   /* Footer */
   .icon-wrapper {
     top: -10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  /* Menu */
+  .menu-right {
+    display: none;
+  }
+
+  .menu-left {
+    width: 100%;
+  }
+  .menu-close {
+    position: fixed;
+    top: 3%;
+    left: 93%;
+    transform: translate(-50%, -50%);
+    margin: 40px;
+  }
+
+  .hr {
+    display: none;
+  }
+
+  .menu-close img {
+    width: 60%;
   }
 }
 
@@ -350,9 +400,36 @@
     transform: translateX(-50%);
     margin-left: 5px;
   }
+  /* Template */
+  #sezione-testo-template {
+    width: 60%;
+  }
+  .img-laterale-sezione {
+    width: 300px;
+  }
+
+  .titolo-sezione {
+    margin-top: 70px;
+  }
 }
 
 @media (max-width: 768px) {
+  /* Menu */
+  .menu-close {
+    left: 90%;
+  }
+
+  .menu-link button {
+    font-size: 50px;
+  }
+
+  #menu-logo {
+    position: absolute;
+    top: 2%;
+    left: 5%;
+    width: 150px;
+  }
+
   /* Hero */
   .hero {
     border-bottom-left-radius: 0;
@@ -435,9 +512,51 @@
     padding-left: 50px;
     padding-bottom: 30px;
   }
+
+  /* Template */
+  #sezione-testo-template {
+    width: 70%;
+  }
 }
 
 @media (max-width: 583px) {
+  /* Menu */
+  .menu-close {
+    left: 84%;
+  }
+
+  .menu-links {
+    text-align: center;
+    gap: 80px;
+  }
+
+  .menu-link button {
+    text-align: left;
+    font-size: 40px;
+  }
+
+  div.panel {
+    font-size: 30px;
+    line-height: 2em;
+    text-align: left;
+  }
+
+  div.panel div:first-child {
+    margin-top: 16px;
+  }
+
+  button.acc-block span {
+    display: none;
+  }
+
+  button.acc-block:after {
+    content: "+";
+    color: white;
+    text-align: center;
+    float: initial;
+    margin-left: 8px;
+  }
+
   /* Hero */
   .navbar-hidden {
     height: 50px;
@@ -513,9 +632,48 @@
   .footer-privacy button h6 {
     font-size: 14px;
   }
+  /* Template */
+  #sezione-testo-template {
+    width: 80%;
+  }
+  .img-laterale-sezione {
+    left: 75%;
+    width: 150px;
+  }
+  .titolo-sezione {
+    margin-top: 40px;
+  }
 }
 
 @media (max-width: 442px) {
+  /* Menu */
+  .menu-right {
+    display: none;
+  }
+
+  .menu-left {
+    width: 100%;
+  }
+
+  .hr {
+    display: none;
+  }
+
+  .menu-link button {
+    font-size: 34px;
+    line-height: 50px;
+  }
+
+  div.panel {
+    font-size: 24px;
+    line-height: 2em;
+    text-align: left;
+  }
+
+  div.panel div:first-child {
+    margin-top: 10px;
+  }
+
   /* Hero */
   .navbar-hidden {
     display: none;
@@ -697,9 +855,48 @@
   .footer-privacy button h6 {
     font-size: 12px;
   }
+
+  /* Template */
+  .hero.hero-t {
+    min-height: 100vh;
+    margin-top: 20px;
+  }
+  #sezione-testo-template {
+    width: 90%;
+  }
+
+  .link-sito {
+    font-size: 12px;
+  }
+
+  .titolo-sezione {
+    margin-top: -120px;
+  }
+  span.panel-link:hover {
+    font-family: inherit;
+  }
 }
 
 @media (max-width: 370px) {
+  /* Menu */
+  .link-sito {
+    font-size: 11px;
+  }
+
+  .menu-link button {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  div.panel {
+    font-size: 24px;
+    line-height: 1.6em;
+    text-align: left;
+  }
+
+  div.panel div:first-child {
+    margin-top: 10px;
+  }
   /* Schede */
   .scheda-2 {
     width: 195%;
@@ -737,5 +934,45 @@
 
   .footer-privacy button h6 {
     font-size: 11px;
+  }
+}
+
+/* VERTICALE */
+@media (max-height: 766px) {
+  .mail,
+  .lavora,
+  .socials {
+    margin-bottom: 20px;
+  }
+
+  .menu-link button {
+    font-size: 50px;
+  }
+}
+
+@media (max-height: 549px) {
+  .mail .title,
+  .lavora .title,
+  .socials .title {
+    font-size: 30px;
+  }
+  .mail h4,
+  .lavora h4,
+  .socials h4,
+  .mail .info,
+  .lavora .info,
+  .socials .info {
+    font-size: 14px;
+  }
+  .footer-privacy-menu {
+    position: relative;
+  }
+
+  .footer-privacy-menu button h6 {
+    font-size: 12px;
+  }
+
+  .menu-link a {
+    font-size: 40px;
   }
 }

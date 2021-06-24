@@ -4,53 +4,18 @@
   observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
       if (entry.intersectionRatio > 0) {
-        
-        var svgs = [
-    { file: "media/hero/testoCorsivoSocrate.svg", container: ".hero-testo" }
-  ];
-
-    svgs.forEach(loadSVG);
-  
-  function loadSVG(svg) {
-    
-    var request = new XMLHttpRequest();
-    request.open("GET", svg.file, true);
-    request.onload = function() {
-      
-      if (request.status >= 200 && request.status < 400) {
-        
-        insert(svg, request.responseText);
-      }
-    };
-    request.onerror = function() {
-      // You got a problem
-    };
-    request.send();
-  }
-
-  function insert(svg, data) {
-    
-    var container = document.querySelector(svg.container);
-    container.insertAdjacentHTML("beforeend", data);
-
-    // if (++loaded === total) startAnimation();
-    startAnimation()
-  }
-
-  function startAnimation(){
     anime({
       targets: '#testoCorsivoSocrate path',
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: 'linear',
-      duration: 150,
-      delay: function (el, i) { return i * 150 },
-      loop: false,
-      complete: function(){
-        document.querySelector('#testoCorsivoSocrate').style.animation = 'fill-opacity 1s linear forwards'
-      }
-      })}
-
-
+      duration: 80,
+      begin: function() {
+        var x = document.querySelectorAll('.testo-path');
+        x.forEach(el => el.setAttribute("stroke", "#a1cae7"))},
+      delay: function (el, i) { return i * 80 },
+      loop: false
+      })
+      
            observer.unobserve(entry.target)
       } else {
       }
