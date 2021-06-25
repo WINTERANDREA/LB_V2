@@ -214,8 +214,8 @@
   }
   .menu-close {
     position: fixed;
-    top: 3%;
-    left: 93%;
+    top: 2%;
+    left: 91%;
     transform: translate(-50%, -50%);
     margin: 40px;
   }
@@ -223,14 +223,14 @@
   .hr {
     display: none;
   }
-
-  .menu-close img {
-    width: 60%;
-  }
 }
 
 /* __________________TABLET__________________ */
 @media (max-width: 992px) {
+  /* Menu */
+  .menu-close img {
+    width: 90%;
+  }
   /* Hero */
 
   .hero-brain {
@@ -416,19 +416,23 @@
 @media (max-width: 768px) {
   /* Menu */
   .menu-close {
-    left: 90%;
+    left: 88%;
   }
 
   .menu-link button {
-    font-size: 50px;
+    font-size: 45px;
   }
 
+  .menu-link {
+    padding: 20px;
+  }
+  /* 
   #menu-logo {
     position: absolute;
     top: 2%;
     left: 5%;
     width: 150px;
-  }
+  } */
 
   /* Hero */
   .hero {
@@ -526,19 +530,18 @@
   }
 
   .menu-links {
-    text-align: center;
-    gap: 80px;
+    gap: 40px;
+    padding: 10px;
   }
 
   .menu-link button {
-    text-align: left;
-    font-size: 40px;
+    text-align: center;
   }
 
   div.panel {
     font-size: 30px;
-    line-height: 2em;
-    text-align: left;
+    line-height: 1.6em;
+    text-align: center;
   }
 
   div.panel div:first-child {
@@ -644,36 +647,34 @@
 
 @media (max-width: 442px) {
   /* Menu */
-  .menu-right {
-    display: none;
+
+  .menu-links {
+    gap: 30px;
+    margin-top: 100px;
   }
 
-  .menu-left {
-    width: 100%;
-  }
-
-  .hr {
-    display: none;
-  }
-
-  .menu-link button {
-    font-size: 34px;
-    line-height: 50px;
+  .menu-close img {
+    width: 75%;
   }
 
   div.panel {
+    margin-top: 0;
     font-size: 24px;
-    line-height: 2em;
-    text-align: left;
+    text-align: center;
   }
 
   div.panel div:first-child {
     margin-top: 10px;
   }
+  #menu-logo {
+    top: 3%;
+    left: 4%;
+    width: 150px;
+  }
 
   /* Hero */
   .navbar-hidden {
-    display: none;
+    height: 60px;
   }
   .hero {
     min-height: 100vh;
@@ -753,12 +754,12 @@
   }
 
   #imio {
-    margin-left: 50px;
+    margin-left: 80px;
   }
 
   #a365 {
-    margin-left: 144px;
-    margin-top: 127px;
+    margin-left: 185px;
+    margin-top: 140px;
   }
 
   #zohodesk {
@@ -797,7 +798,7 @@
 
   #clienti {
     top: -12%;
-    left: 20%;
+    left: 25%;
   }
 
   #jobs {
@@ -833,6 +834,7 @@
 
   .footer-grid h4 {
     font-size: 20px;
+    margin-bottom: 5px;
   }
 
   .footer-grid p {
@@ -856,7 +858,7 @@
   /* Template */
   .hero.hero-t {
     min-height: 100vh;
-    margin-top: 20px;
+    margin-top: -55px;
   }
   #sezione-testo-template {
     width: 90%;
@@ -868,9 +870,14 @@
 
   .titolo-sezione {
     margin-top: -120px;
+    text-transform: none;
   }
   span.panel-link:hover {
     font-family: inherit;
+  }
+
+  .btn-wrapper.btn-template {
+    width: 100%;
   }
 }
 
@@ -885,14 +892,16 @@
     line-height: 40px;
   }
 
-  div.panel {
-    font-size: 24px;
-    line-height: 1.6em;
-    text-align: left;
-  }
-
   div.panel div:first-child {
     margin-top: 10px;
+  }
+
+  .menu-close {
+    left: 80%;
+  }
+
+  .menu-close img {
+    width: 70%;
   }
   /* Schede */
   .scheda-2 {
@@ -943,11 +952,11 @@
   }
 
   .menu-link button {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
-@media (max-height: 549px) {
+@media (max-height: 568px) {
   .mail .title,
   .lavora .title,
   .socials .title {
@@ -971,5 +980,20 @@
 
   .menu-link a {
     font-size: 40px;
+  }
+
+  .menu-link button {
+    font-size: 35px;
+  }
+  div.panel {
+    margin-top: 0;
+    text-align: center;
+  }
+  .menu-link a {
+    font-size: 18px;
+  }
+
+  .menu-links {
+    gap: 10px;
   }
 }

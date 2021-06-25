@@ -22,6 +22,18 @@
   animation: scale 5s linear 1s forwards;
 }
 
+.hero-logo-t.wb-t {
+  top: 34%;
+  left: 43%;
+  width: 20%;
+}
+
+.hero-logo-t.grm-t {
+  top: 35%;
+  left: 40%;
+  width: 17%;
+}
+
 #logo-sezione-template {
   width: 100%;
   text-align: center;
@@ -51,6 +63,7 @@
   font-size: 40px;
   margin-bottom: 35px;
   margin-top: 100px;
+  text-transform: uppercase;
 }
 
 .sottotitolo-sezione {
@@ -64,6 +77,16 @@
   font-size: 22px;
   line-height: 30px;
   margin-bottom: 35px;
+}
+
+.paragrafo-ul {
+  font-family: Gotham_Light;
+  color: var(--main-blue);
+  font-size: 22px;
+  line-height: 30px;
+  margin-bottom: 35px;
+  margin-left: 15px;
+  padding: 5px;
 }
 
 .paragrafo-sezione strong {
@@ -86,8 +109,16 @@
   margin-bottom: 200px;
 }
 
+.link-sito.link-sito-nascosto {
+  margin-bottom: 100px;
+}
+
 .scheda-3.t {
   margin-top: 0;
 }
 
-/* Accordion */
+.hero-logo-t.zoho-t {
+  top: 23%;
+  left: 44%;
+  width: 10%;
+}
