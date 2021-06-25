@@ -34,6 +34,18 @@
   width: 17%;
 }
 
+.hero-logo-t.news-t {
+  top: 30%;
+  left: 45%;
+  width: 9%;
+}
+
+.hero-logo-t.clienti-t {
+  top: 30%;
+  left: 45%;
+  width: 9%;
+}
+
 #logo-sezione-template {
   width: 100%;
   text-align: center;
@@ -99,7 +111,8 @@
   margin-top: 110px;
 }
 
-.link-sito {
+.link-sito,
+.link-sito a {
   font-family: Gotham_Medium;
   text-align: center;
   font-size: 14px;
@@ -107,6 +120,10 @@
   color: var(--main-blue);
   margin-top: 40px;
   margin-bottom: 200px;
+}
+
+.link-sito:hover a {
+  color: #ffffff;
 }
 
 .link-sito.link-sito-nascosto {
@@ -121,4 +138,7 @@
   top: 23%;
   left: 44%;
   width: 10%;
+}
+
+.download {
 }
