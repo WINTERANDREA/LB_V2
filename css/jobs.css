@@ -1,28 +1,70 @@
 /* JOBS */
 
+#sezione-testo-template.sezione-jobs {
+  width: 70%;
+}
+
 #myform {
   width: 100%;
-  background: var(--light-cyan);
+  background: #c6def069;
   margin-left: -100px;
   padding: 50px;
   border-radius: 50px;
+  border: 2px solid var(--loghi-text);
+  box-shadow: 7px -5px 8px -2px var(--loghi-text);
 }
 .form-block {
   display: flex;
   flex-direction: row;
   gap: 5%;
+  align-items: center;
 }
 
 .form-group,
 .form-group input,
 .form-group select {
   width: 100%;
+  margin-bottom: 10px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  padding: 10px;
+  font-family: "Gotham_Book";
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-group input:active,
+.form-group select:active,
+.form-group textarea:active,
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  outline: 1px solid var(--main-lightblue);
 }
 
 .form-group textarea {
   width: 100%;
 }
 
+.form-group #fcv {
+  padding: 24px;
+}
+
 .form-group label {
   display: block;
+  font-family: "Gotham_Bold";
+  font-size: 16px;
+  text-transform: uppercase;
+  color: var(--main-lightblue);
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  background-color: transparent;
+  border: 1px solid #666;
+  height: 70px;
 }

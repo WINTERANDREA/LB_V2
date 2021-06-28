@@ -11,7 +11,7 @@
   }
   /* Hero */
   .navbar-hidden {
-    height: 150px;
+    height: 100px;
   }
 
   .hero {
@@ -70,6 +70,15 @@
   }
   .footer-grid {
     width: 70%;
+  }
+  /* Template */
+  .paragrafo-img-titolo {
+    grid-template-columns: 70% 30%;
+  }
+  /* JOBS */
+
+  #sezione-testo-template.sezione-jobs {
+    width: 60%;
   }
 }
 
@@ -200,6 +209,31 @@
   /* Footer */
   .icon-wrapper {
     top: -10px;
+  }
+  /* Template */
+  .paragrafo-img-titolo {
+    grid-template-columns: 60% 40%;
+  }
+  .paragrafo-img-right {
+    margin-top: 10%;
+    grid-template-columns: 50% 50%;
+  }
+  .paragrafo-titolo {
+    margin-top: 10%;
+  }
+  .paragrafo-2-svg {
+    margin-top: 10%;
+  }
+  .paragrafo-img-left {
+    margin-left: -50%;
+    grid-template-columns: 50% 50%;
+  }
+  .svg-4 {
+    width: 60%;
+  }
+  /* Jobs */
+  #myform {
+    margin-left: 0px;
   }
 }
 
@@ -410,6 +444,20 @@
 
   .titolo-sezione {
     margin-top: 70px;
+    font-size: 30px;
+  }
+
+  .titolo-sezione-big {
+    font-size: 80px;
+  }
+  /* Jobs */
+  .form-block {
+    flex-direction: column;
+  }
+
+  #btn-form.btn-wrapper.btn-small {
+    width: 50%;
+    margin: 0 0 0 auto;
   }
 }
 
@@ -521,6 +569,39 @@
   #sezione-testo-template {
     width: 70%;
   }
+  .paragrafo-img-titolo {
+    grid-template-columns: 60% 40%;
+  }
+  .paragrafo-img-right {
+    grid-template-columns: 1fr;
+    margin-right: 0;
+  }
+
+  .svg-1 {
+    margin-top: -15%;
+  }
+
+  .paragrafo-img-left {
+    margin-left: -50%;
+    grid-template-columns: 50% 50%;
+  }
+
+  .paragrafo-titolo-blu {
+    margin-top: 5%;
+    width: 100%;
+  }
+  .download-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .download-wrapper .btn-wrapper.btn-template {
+    margin-top: 50px;
+  }
+
+  .svg-4 {
+    width: 80%;
+    margin-left: 30%;
+  }
 }
 
 @media (max-width: 583px) {
@@ -539,8 +620,8 @@
   }
 
   div.panel {
-    font-size: 30px;
-    line-height: 1.6em;
+    font-size: 34px;
+    line-height: 2em;
     text-align: center;
   }
 
@@ -642,6 +723,20 @@
   }
   .titolo-sezione {
     margin-top: 40px;
+  }
+
+  /* Jobs */
+  #sezione-testo-template.sezione-jobs {
+    width: 90%;
+  }
+  #myform {
+    padding: 0px;
+    border-radius: 0px;
+    border: none;
+    box-shadow: none;
+  }
+  #btn-form.btn-wrapper.btn-small {
+    width: 100%;
   }
 }
 
@@ -878,6 +973,25 @@
 
   .btn-wrapper.btn-template {
     width: 100%;
+  }
+
+  .titolo-sezione-big {
+    font-size: 55px;
+  }
+  .paragrafo-img-titolo {
+    grid-template-columns: 57% 47%;
+  }
+
+  .paragrafo-titolo {
+    font-size: 35px;
+  }
+  .svg-4 {
+    display: none;
+  }
+  /* Jobs */
+
+  #btn-form.btn-wrapper.btn-small {
+    height: 70px;
   }
 }
 

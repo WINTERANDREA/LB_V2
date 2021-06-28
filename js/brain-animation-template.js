@@ -47,7 +47,7 @@
       direction: 'reverse',
       
       easing: 'easeInCirc',
-      duration: 5000,
+      duration: 3000,
       
       complete: function(anim) {
        document.querySelector('#electron_1sx').style.animation = 'fadeOut 1s linear forwards'
@@ -62,7 +62,7 @@ anime({
       rotate: path3sx('angle'),
       opacity: 1,
       scale: 1,
-      duration: 4000,
+      duration: 2500,
       easing: 'easeInCirc',
       complete: function(anim) {
         document.querySelector('#electron_3sx').style.animation = 'fadeOut 1s linear forwards'
@@ -106,7 +106,7 @@ anime({
       opacity: 1,
       scale: 1,
         direction: 'reverse',
-      duration: 5000,
+      duration: 1000,
       easing: 'easeInCirc',
       complete: function(anim) {
        document.querySelector('#electron_7sx').style.animation = 'fadeOut 1s linear forwards'
@@ -121,7 +121,7 @@ anime({
       opacity: 1,
       scale: 1,
       direction: 'reverse',
-      duration: 5000,
+      duration: 200,
       easing: 'easeInCirc',
       complete: function(anim) {
        document.querySelector('#electron_10sx').style.animation = 'fadeOut 1s linear forwards'
@@ -136,7 +136,7 @@ anime({
       opacity: 1,
       scale: 1,
       direction: 'reverse',
-      duration: 4000,
+      duration: 2000,
       easing: 'easeInCirc',
       complete: function(anim) {
        document.querySelector('#electron_11sx').style.animation = 'fadeOut 1s linear forwards'
@@ -151,7 +151,7 @@ anime({
       opacity: 1,
       scale: 1,
       direction: 'reverse',
-      duration: 3000,
+      duration: 2000,
       easing: 'easeInCirc',
       complete: function(anim) {
        document.querySelector('#electron_12sx').style.animation = 'fadeOut 1s linear forwards'
@@ -166,7 +166,7 @@ anime({
       opacity: 1,
       scale: 1,
       direction: 'reverse',
-      duration: 3000,
+      duration: 800,
       easing: 'easeInCirc',
       complete: function(anim) {
        document.querySelector('#electron_13sx').style.animation = 'fadeOut 1s linear forwards'
@@ -196,7 +196,7 @@ anime({
       opacity: 1,
       scale: 1,
       direction: 'reverse',
-      duration: 5000,
+      duration: 1800,
       easing: 'easeInCirc',
       complete: function(anim) {
        document.querySelector('#electron_17sx').style.animation = 'fadeOut 1s linear forwards'
@@ -211,7 +211,7 @@ anime({
       opacity: 1,
       scale: 1,
       direction: 'reverse',
-      duration: 3000,
+      duration: 1500,
       easing: 'easeInCirc',
       complete: function(anim) {
           document.querySelector('#electron_1dx').style.animation = 'fadeOut 1s linear forwards'
@@ -226,7 +226,7 @@ anime({
       opacity: 1,
       scale: 1,
       direction: 'reverse',
-      duration: 3000,
+      duration: 2500,
       easing: 'easeInCirc',
       complete: function(anim) {
         document.querySelector('#electron_2dx').style.animation = 'fadeOut 1s linear forwards'
@@ -257,7 +257,7 @@ anime({
       opacity: 1,
       scale: 1,
       direction: 'reverse',
-      duration: 5000,
+      duration: 500,
       easing: 'easeInCirc',
       complete: function(anim) {
         document.querySelector('#electron_6dx').style.animation = 'fadeOut 1s linear forwards'
@@ -272,7 +272,7 @@ anime({
       opacity: 1,
       scale: 1,
       direction: 'reverse',
-      duration: 5000,
+      duration: 2500,
       easing: 'easeInCirc',
       complete: function(anim) {
         document.querySelector('#electron_7dx').style.animation = 'fadeOut 1s linear forwards'
@@ -302,7 +302,7 @@ anime({
       opacity: 1,
       scale: 1,
       direction: 'reverse',
-      duration: 6000,
+      duration: 1000,
       easing: 'easeInCirc',
       complete: function(anim) {
         document.querySelector('#electron_12dx').style.animation = 'fadeOut 1s linear forwards'
@@ -317,7 +317,7 @@ anime({
       opacity: 1,
       scale: 1,
       direction: 'reverse',
-      duration: 3000,
+      duration: 500,
       easing: 'easeInCirc',
       complete: function(anim) {
         document.querySelector('#electron_13dx').style.animation = 'fadeOut 1s linear forwards'
@@ -332,7 +332,7 @@ anime({
       rotate: path15dx('angle'),
       opacity: 1,
       scale: 1,
-      duration: 5000,
+      duration: 1500,
       easing: 'easeInCirc',
       complete: function(anim) {
         document.querySelector('#electron_15dx').style.animation = 'fadeOut 1s linear forwards'

@@ -46,6 +46,33 @@
   display: none;
 }
 
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none; /* Remove default arrow */
+  background-image: url(../media/icone/caret-down-solid.svg); /* Add custom arrow */
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
 body {
   font-family: Gotham_Bold;
   max-width: 100vw;
@@ -93,6 +120,10 @@ button {
   width: 135px;
 }
 
+#btn-form.btn-wrapper.btn-small {
+  width: 170px;
+}
+
 .btn-link {
   font-family: Gotham_Book;
   position: absolute;
@@ -106,8 +137,9 @@ button {
   cursor: pointer;
 }
 
-button .btn-link {
+button.btn-link {
   width: 100%;
+  margin-top: 5px;
 }
 
 .btn-link:hover .btn-text {
@@ -173,12 +205,9 @@ button .btn-link {
 
 #menu-logo {
   position: absolute;
-  top: 1%;
+  top: 2%;
   left: 3%;
-  width: 250px;
-}
-
-.menu-left .menu-logo img {
+  width: 150px;
 }
 
 .hr {
@@ -385,7 +414,7 @@ img {
 
 /* HERO */
 .navbar-hidden {
-  height: 120px;
+  height: 100px;
 }
 
 .hero {
@@ -411,7 +440,7 @@ img {
   transform: scale(0);
   opacity: 0;
   margin-bottom: 140px;
-  animation: scale 5s linear 1s forwards;
+  animation: scale 3s linear forwards;
 }
 
 .hero-testo {

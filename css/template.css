@@ -19,7 +19,7 @@
   transform: scale(0);
   opacity: 0;
   margin-bottom: 140px;
-  animation: scale 5s linear 1s forwards;
+  animation: scale 3s linear forwards;
 }
 
 .hero-logo-t.wb-t {
@@ -76,7 +76,7 @@
 }
 .paragrafo-img-titolo {
   display: grid;
-  grid-template-columns: 70% 30%;
+  grid-template-columns: 60% 40%;
   align-items: center;
 }
 
@@ -220,4 +220,9 @@
   top: 23%;
   left: 44%;
   width: 10%;
+}
+
+.download-wrapper {
+  display: flex;
+  align-items: start;
 }
