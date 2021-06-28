@@ -1,0 +1,28 @@
+/* JOBS */
+
+#myform {
+  width: 100%;
+  background: var(--light-cyan);
+  margin-left: -100px;
+  padding: 50px;
+  border-radius: 50px;
+}
+.form-block {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+}
+
+.form-group,
+.form-group input,
+.form-group select {
+  width: 100%;
+}
+
+.form-group textarea {
+  width: 100%;
+}
+
+.form-group label {
+  display: block;
+}

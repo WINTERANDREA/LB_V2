@@ -106,6 +106,10 @@ button {
   cursor: pointer;
 }
 
+button .btn-link {
+  width: 100%;
+}
+
 .btn-link:hover .btn-text {
   color: rgba(255, 255, 255, 1);
 }
@@ -381,7 +385,7 @@ img {
 
 /* HERO */
 .navbar-hidden {
-  height: 150px;
+  height: 120px;
 }
 
 .hero {

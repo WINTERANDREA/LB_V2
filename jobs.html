@@ -30,6 +30,7 @@
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/template.css">
+  <link rel="stylesheet" href="css/jobs.css">
   <link rel="stylesheet" href="css/mediaquery.css">
   <title>LIBEROBIT | Jobs</title>
 </head>
@@ -1352,16 +1353,98 @@
     <section id="sezione-testo-template">
       <h1 class="titolo-sezione">Lavora con noi</h1>
       <div class="paragrafo-1">
-        <h3 class="sottotitolo-sezione ">... work in progress</h3>
-        <p class="paragrafo-sezione"></p>
+        <h3 class="sottotitolo-sezione ">Jobs & Carrers</h3>
+        <p class="paragrafo-sezione">Se vuoi lavorare in un ambiente giovane, dinamico e
+          informale, dove conta curiosità e voglia di imparare,
+          dove i concetti di orario, ufficio, scrivania sono relativi
+          allora inserisci la tua candidatura, potresti essere il nostro
+          prossimo collaboratore.</p>
+      </div>
+
+      <form id="myform" action="">
+
+        <div class="form-block">
+          <div class="form-group">
+            <label for="fprofile">Profilo</label>
+            <select name="fprofile" id="fprofile">
+              <option value="frontend">FrontEnd</option>
+              <option value="backend">BackEnd</option>
+              <option value="csharp">C# Expert</option>
+              <option value="uiux">UI/UX</option>
+            </select>
+          </div>
+
+
+          <div class="form-group">
+            <label for="fname">Nome e cognome</label>
+            <input type="text" id="fname" name="fname">
+          </div>
+        </div>
+
+        <div class="form-block">
+          <div class="form-group">
+            <label for="femail">e-mail</label>
+            <input type="email" id="femail" name="femail">
+          </div>
+
+          <div class="form-group">
+            <label for="fmobile">Telefono</label>
+            <input type="number" id="fmobile" name="fmobile">
+          </div>
+        </div>
+
+        <div class="form-block">
+          <div class="form-group">
+            <label for="fmessage">Messaggio</label>
+            <textarea id="fmessage" name="fmessage" rows="4" maxlength="400"></textarea>
+          </div>
+        </div>
+
+        <div class="form-block">
+          <div class="form-group">
+            <label for="fcv">Il tuo cv</label>
+            <input type="file" id="fcv" name="fcv">
+          </div>
+
+          <div class="form-group">
+            <div class="btn-wrapper btn-small">
+              <button class="btn-link"><span class="btn-text">News</span></button>
+              <div class="btn-shadow-left"></div>
+              <div class="btn-shadow-right"></div>
+            </div>
+          </div>
+
+
+          <!-- <div class="container send-container">
+            <div class="g-recaptcha" data-sitekey="6LcbjpMaAAAAAIT-rxOMAZ9M-XBBy5zGdMYQTjiS">
+            </div>
+            
+          </div> -->
+        </div>
+
+
+
+
+
+      </form>
+
+      <div id="captcha" class="alert alert-danger d-none mt-2 mb-2" role="alert">
+        Verifica il Captcha prima di procedere!
+      </div>
+
+      <div id="email-success" class="alert alert-success d-none mt-2 mb-2" role="alert">
+        Email inviata con successo!
+      </div>
+      <div id="email-error" class="alert alert-danger d-none mt-2 mb-2" role="alert">
+        Email non inviata, riprova.
+      </div>
+      <div id="email-error2" class="alert alert-danger d-none mt-2 mb-2" role="alert">
+        Invio email non riuscito. Perfavore aggiorna la pagina e riprova.
       </div>
 
 
-      <div class="btn-wrapper btn-template">
-        <a href="" target="_blank" class="btn-link"><span class="btn-text">Invia la tua candidatura</span></a>
-        <div class="btn-shadow-left"></div>
-        <div class="btn-shadow-right"></div>
-      </div>
+
+
 
       <div class="link-sito link-sito-nascosto">
         <!-- <h2>www.assistenza365.cloud</h2> -->

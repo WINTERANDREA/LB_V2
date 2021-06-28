@@ -3,8 +3,8 @@
 gsap.registerPlugin(ScrollTrigger);
 
 
-gsap.from(".titolo-sezione", {scrollTrigger: {trigger:".titolo-sezione", start:"top 60%"}, duration: 1, y:200, opacity:0})
-gsap.from(".svg-titolo", {scrollTrigger: {trigger:".titolo-sezione", start:"top 90%"}, duration: 1, scale:0, opacity:0})
+gsap.from(".titolo-sezione", {scrollTrigger: {trigger:".titolo-sezione", start:"top 80%"}, duration: 1, y:200, opacity:0})
+gsap.from(".svg-titolo", {scrollTrigger: {trigger:".titolo-sezione", start:"top 80%"}, duration: 1, scale:0, opacity:0})
 gsap.from(".paragrafo-1", {scrollTrigger: {trigger:".paragrafo-1", start:"top 80%"}, duration: 1, y:200, opacity:0})
 gsap.from(".paragrafo-1-svg", {scrollTrigger: {trigger:".paragrafo-1-svg", start:"top 80%"}, duration: 1, x:-200, opacity:0})
 gsap.from(".svg-1", {scrollTrigger: {trigger:".paragrafo-1-svg", start:"top 80%"}, duration: 1, x:200, opacity:0})
