@@ -169,7 +169,8 @@
   margin-bottom: 35px;
 }
 
-.paragrafo-2 .paragrafo-sezione {
+.paragrafo-2 .paragrafo-sezione,
+.paragrafo-2-svg .paragrafo-sezione {
   text-align: right;
 }
 
@@ -221,9 +222,3 @@
   left: 44%;
   width: 10%;
 }
-
-/* .paragrafo-img-titolo {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
