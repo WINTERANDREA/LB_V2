@@ -80,6 +80,12 @@
   #sezione-testo-template.sezione-jobs {
     width: 60%;
   }
+
+  /* NEWS */
+
+  .card-img {
+    height: 480px;
+  }
 }
 
 /* GIANT SCREEN */
@@ -133,6 +139,11 @@
     background: url(../media/sfondi/sfondo-footer_new2.svg) no-repeat top center / cover;
     width: 100%;
     margin-left: 0;
+  }
+  /* NEWS */
+
+  .card-img {
+    height: 650px;
   }
 }
 
