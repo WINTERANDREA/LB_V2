@@ -110,14 +110,19 @@
   width: 90%;
   text-align: center;
 }
-.card__price-box {
+.card__title-box {
   text-align: center;
   color: #fff;
   margin-bottom: 8rem;
 }
-.card__price-only {
-  font-size: 1.4rem;
+.card__title {
   text-transform: uppercase;
+  color: var(--loghi);
+  font-family: "Gotham_Light";
+  text-align: center;
+  font-size: 1.4rem;
+  letter-spacing: 5px;
+  margin-top: 30px;
 }
 .card__price-value {
   font-size: 6rem;
@@ -160,3 +165,51 @@
     font-size: 6rem;
   }
 } */
+
+/* CLIENTI */
+.card-clienti-content {
+  height: 100%;
+  width: 100%;
+  padding: 15px;
+  color: var(--loghi);
+  font-family: "Gotham_Book";
+}
+
+.card__picture-clienti {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 10rem;
+  background-blend-mode: screen;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+
+.card__side--back-clienti-1 {
+  background: #fff;
+}
+
+.card__picture-clienti-1 {
+  background-image: url(../media/clienti/afi-pres.jpg);
+  background-size: cover;
+}
+
+.card__title-img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+@media (max-width: 1600px) {
+  .card-rotate {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 992px) {
+  .card-rotate {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+}
