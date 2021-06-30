@@ -1,6 +1,6 @@
 /* Variabili */
 let page_id = "631710263523347";
-let access_token = "EAALrob4aw5oBAGq1Hnq6z3yGhWigmB2oJKi7QMQm1TXR43QClGXQuMEuZCUMVvDWuWJXSxLzDorOdfxZBtpFbUQt4M2YHo8yFMemgFBaRZCW23LeoRZB10h0tQtscOSdTvmyPbuarrnuYGdXMzMWhwG93WT4yVvoqWm28jY85j5KzwgOqQXxhx5PpNp1KdYNK0DoR6fZBXYFC6hUDoNkm";
+let access_token = "";
 var n_post_to_show = 15;
 var count_post = 0;
 
