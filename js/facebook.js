@@ -1,7 +1,7 @@
 /* Variabili */
 let page_id = "631710263523347";
-let access_token = "EAAFI3N6mHa4BAFdibUkOoZAvg9pASq74YMzRWdT0xeGJoUyFeykdXI6vwsZBkH1Ux1K6bETxYSvVoZByhrADRoGqLO3aFpqHdJmEMG6ClH1NojBAP6OB1CubsvZAjDzZC7ZBGbuqKZB0vkY1xo9iv9dZBVqnAmKxSBapU7wwmqRWDvoqTMRqSCPK";
-var n_post_to_show = 9;
+let access_token = "EAAFI3N6mHa4BADqFDwZBIAIPNTC5g8pGPQQW5NIMsHe449zfDXbD825cbMckTOiyaERc2qosM2eb2V84hgcujQeZCyt3kVgN5FOkvLfTSXfXSHMiFizLQ2ufgPXqLIgNgXYnAMeOwQ4qjj86IG66ZA82ePebeP86ZBv8uW7vW21NmViL3XZBi";
+var n_post_to_show = 15;
 var count_post = 0;
 
 
@@ -10,6 +10,7 @@ var count_post = 0;
 async function get_posts() {
     const response = await fetch(`https://graph.facebook.com/${page_id}/published_posts?fields=permalink_url&access_token=${access_token}`)
     const posts = await response.json();
+    console.log(posts)
     const last_posts = posts.data.splice(0, n_post_to_show);
     return last_posts
 }
