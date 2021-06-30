@@ -2,6 +2,10 @@
   background: url(../media/template/BG_Partnership_nologo.svg) no-repeat center center / cover;
 }
 
+.container.about {
+  background: none;
+}
+
 .hero.hero-t {
   background: none;
   min-height: 500px;
