@@ -94,6 +94,29 @@
   .paragrafo-img-right-svg {
     grid-template-columns: 70% 30%;
   }
+
+  .titolo-sezione-big {
+    font-size: 130px;
+  }
+
+  .titolo-sezione,
+  .sottotitolo-sezione,
+  .paragrafo-titolo,
+  .paragrafo-titolo-blu {
+    font-size: 45px;
+  }
+
+  .paragrafo-sezione {
+    font-size: 35px;
+    line-height: 40px;
+    margin-top: 25px;
+    margin-bottom: 0;
+  }
+
+  .btn-wrapper.btn-template.btn-big {
+    width: 400px;
+    height: 100px;
+  }
   /* JOBS */
 
   #sezione-testo-template.sezione-jobs {
@@ -484,28 +507,10 @@
     font-size: 80px;
   }
 
-  .paragrafo-img-titolo-svg {
-    display: grid;
-    grid-template-columns: 45% 65%;
-    align-items: flex-start;
-    margin-left: -140px;
-    gap: 40px;
-  }
-
-  .paragrafo-img-right-svg {
-    margin-right: -30%;
-    grid-template-columns: 60% 40%;
-    margin-top: 50px;
-  }
-
-  .paragrafo-img-left-svg {
-    display: grid;
-    margin-left: -25%;
-    grid-template-columns: 40% 60%;
-  }
-
-  .paragrafo-titolo-blu-svg {
-    width: 100%;
+  .paragrafo-img-titolo.long-text {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 0;
   }
 
   /* Jobs */
@@ -635,13 +640,15 @@
     margin-right: 0;
   }
 
-  .svg-1 {
-    margin-top: -15%;
-  }
-
   .paragrafo-img-left {
     margin-left: -50%;
     grid-template-columns: 50% 50%;
+  }
+
+  .paragrafo-img-left.list {
+    margin-left: 0;
+    display: flex;
+    flex-direction: column-reverse;
   }
 
   .paragrafo-titolo-blu {
@@ -658,7 +665,6 @@
 
   .svg-4 {
     width: 80%;
-    margin-left: 30%;
   }
   .paragrafo-img-titolo-svg {
     grid-template-columns: 40% 70%;

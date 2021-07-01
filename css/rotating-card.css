@@ -7,12 +7,10 @@
   perspective: 150rem;
   -moz-perspective: 150rem;
   position: relative;
-  height: 44rem;
-  /* @include respond(tab-port) {
-		 */
+  height: 34rem;
 }
 .card__side {
-  height: 44rem;
+  height: 34rem;
   transition: all 0.8s ease;
   position: absolute;
   top: 0;
@@ -128,43 +126,6 @@
   font-size: 6rem;
   font-weight: 100;
 }
-/* @media only screen and (max-width: 56.25em), only screen and (hover: none) {
-  .card {
-    height: auto;
-    border-radius: 3px;
-    background-color: #fff;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  }
-  .card__side {
-    height: auto;
-    position: relative;
-    box-shadow: none;
-  }
-  .card__side--back {
-    transform: rotateY(0);
-    clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
-  }
-  .card:hover .card__side--front {
-    transform: rotateY(0);
-  }
-  .card__details {
-    padding: 1rem 3rem;
-  }
-  .card__cta {
-    position: relative;
-    top: 0%;
-    left: 0;
-    transform: translate(0);
-    width: 100%;
-    padding: 7rem 4rem 4rem 4rem;
-  }
-  .card__price-box {
-    margin-bottom: 3rem;
-  }
-  .card__price-value {
-    font-size: 6rem;
-  }
-} */
 
 /* CLIENTI */
 .card-clienti-content {
@@ -201,7 +162,16 @@
   border-radius: 50%;
 }
 
-@media (max-width: 1600px) {
+@media (min-width: 1900px) {
+  .card {
+    height: 44rem;
+  }
+  .card__side {
+    height: 44rem;
+  }
+}
+
+@media (max-width: 1200px) {
   .card-rotate {
     grid-template-columns: 1fr 1fr;
   }
@@ -209,7 +179,18 @@
 
 @media (max-width: 992px) {
   .card-rotate {
-    grid-template-columns: 1fr;
     gap: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .card-rotate {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 442px) {
+  #sezione-testo-template.full {
+    width: 90%;
   }
 }

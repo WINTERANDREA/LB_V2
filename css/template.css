@@ -189,6 +189,9 @@
   text-transform: uppercase;
   text-align: right;
 }
+.paragrafo-titolo.left {
+  text-align: left;
+}
 
 .paragrafo-titolo-svg {
   color: var(--main-lightblue);
@@ -238,6 +241,10 @@
 
 .paragrafo-2-svg .paragrafo-sezione {
   text-align: right;
+}
+
+.paragrafo-2-svg .paragrafo-sezione.left {
+  text-align: left;
 }
 
 .paragrafo-ul {
@@ -292,4 +299,8 @@
 .download-wrapper {
   display: flex;
   align-items: start;
+}
+
+.mb-5 {
+  margin-bottom: 150px;
 }
