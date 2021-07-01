@@ -1,6 +1,6 @@
 /* Variabili */
 let page_id = "631710263523347";
-let access_token = "";
+let access_token = "EAALrob4aw5oBADxHzbNCtY5CNRWOyJmSjCnPsXVnvlbKEJrT6CREcYMqYPqhZC8IHidhZAKR7iPDt8CXSsm1KtqPQOwSGaRYq4dg54P9v6W0ZAPSXX5gDETKNGCEzDNbS0yDATK7J10cpZBZCmZBnLpFGpdKRyDjP4rrAaH4M32CS0tgyfxrau";
 var n_post_to_show = 15;
 var count_post = 0;
 /* EAAFI3N6mHa4BAN1DqRGmtMJFYrBgtNIZBicFDAweqpza6WCAWizsFHfeEqMVQhnd55QviTiDhkfgSbBBuD5LZCap6gyfWoIyYdklEsOluRYJw84BiJ8ZB3AKljZBryyw95heMZAM3EUeXjuBZCzXF6kQXPMvJZAghSI7ZB9ZBEyUQPPvDJX39gzHk */
