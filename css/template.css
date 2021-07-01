@@ -94,10 +94,10 @@
 
 .titolo-sezione-big {
   color: var(--main-lightblue);
-  font-size: 100px;
+  font-size: 90px;
   text-transform: uppercase;
   text-align: right;
-  line-height: 80%;
+  line-height: 95%;
 }
 
 .titolo-sezione-medium {
