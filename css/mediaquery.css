@@ -1090,6 +1090,10 @@
     font-size: 30px;
   }
 
+  .titolo-sezione.about {
+    margin-top: 30px;
+  }
+
   .titolo-sezione.right {
     text-align: left;
   }

@@ -3,6 +3,11 @@
   grid-template-columns: 1fr 1fr 1fr;
   gap: 80px;
 }
+
+.card-rotate2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .card {
   perspective: 150rem;
   -moz-perspective: 150rem;
@@ -29,13 +34,22 @@
   transform: rotateY(180deg);
 }
 .card__side--back-1 {
-  background-image: linear-gradient(to right bottom, rgba(43, 134, 238, 0.85), rgba(32, 53, 119, 0.85));
+  background-image: linear-gradient(to top right, #f84242, #ffb573);
 }
 .card__side--back-2 {
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485);
+  background-image: linear-gradient(to top right, #36a7bc, #43c3ab);
 }
 .card__side--back-3 {
-  background-image: linear-gradient(to right bottom, #2998ff, #5643fa);
+  background-image: linear-gradient(to top right, #ffb573, #fff779);
+}
+.card__side--back-4 {
+  background-image: linear-gradient(to top right, #00dacd, #31f4ad);
+}
+.card__side--back-5 {
+  background-image: linear-gradient(to top right, #c560ff, #8a66ff);
+}
+.card__side--back-6 {
+  background-image: linear-gradient(to top right, #00cdda, #6683ff);
 }
 .card:hover .card__side--back {
   transform: rotateY(-180deg);
@@ -45,7 +59,7 @@
 }
 .card__picture {
   background-size: cover;
-  height: 23rem;
+  height: 10rem;
   background-blend-mode: screen;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
@@ -53,13 +67,25 @@
   border-top-right-radius: 3px;
 }
 .card__picture--1 {
-  background-image: linear-gradient(to right bottom, rgba(43, 134, 238, 0.85), rgba(32, 53, 119, 0.85)), url(../media/icone/Clienti_icon.svg);
+  background-image: linear-gradient(to top right, #f84242, #ffb573), url(../media/about/metodo.jpg);
 }
 .card__picture--2 {
-  background-image: linear-gradient(to right bottom, #7ed56f, #28b485), url(../img/nat-6.jpg);
+  background-image: linear-gradient(to top right, #36a7bc, #43c3ab), url(../media/about/metodo.jpg);
 }
 .card__picture--3 {
-  background-image: linear-gradient(to right bottom, #2998ff, #5643fa), url(../img/nat-7.jpg);
+  background-image: linear-gradient(to top right, #ffb573, #fff779), url(../media/about/metodo.jpg);
+}
+
+.card__picture--4 {
+  background-image: linear-gradient(to top right, #00dacd, #31f4ad), url(../media/about/metodo.jpg);
+}
+
+.card__picture--5 {
+  background-image: linear-gradient(to top right, #c560ff, #8a66ff), url(../media/about/metodo.jpg);
+}
+
+.card__picture--6 {
+  background-image: linear-gradient(to top right, #00cdda, #6683ff), url(../media/about/metodo.jpg);
 }
 .card__heading {
   font-size: 2.8rem;
@@ -72,6 +98,19 @@
   right: 2rem;
   width: 85%;
 }
+.card__heading-2 {
+  font-size: 2.6rem;
+  font-weight: 300;
+  text-align: right;
+  text-transform: uppercase;
+  color: #fff;
+  /* position: absolute; */
+  /* top: 12rem; */
+  /* right: 2rem; */
+  width: 100%;
+  margin-bottom: 45px;
+}
+
 .card__heading-span {
   padding: 1rem 1.5rem;
   -webkit-box-decoration-break: clone;
@@ -79,13 +118,37 @@
   line-height: 70px;
 }
 .card__heading-span--1 {
-  background-image: linear-gradient(to right bottom, rgba(43, 134, 238, 0.85), rgba(32, 53, 119, 0.85));
+  background-image: linear-gradient(to top right, #f84242, #ffb573);
 }
 .card__heading-span--2 {
-  background-image: linear-gradient(to right bottom, rgba(126, 213, 111, 0.85), rgba(40, 180, 133, 0.85));
+  background-image: linear-gradient(to top right, #36a7bc, #43c3ab);
 }
 .card__heading-span--3 {
-  background-image: linear-gradient(to right bottom, rgba(41, 152, 255, 0.85), rgba(86, 67, 250, 0.85));
+  background-image: linear-gradient(to top right, #ffb573, #fff779);
+}
+.card__heading-span--4 {
+  background-image: linear-gradient(to top right, #00dacd, #31f4ad);
+}
+.card__heading-span--5 {
+  background-image: linear-gradient(to top right, #c560ff, #8a66ff);
+}
+.card__heading-span--6 {
+  background-image: linear-gradient(to top right, #00cdda, #6683ff);
+}
+
+.card__details {
+  font-family: "Gotham_Book";
+  height: 70%;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  padding: 10px;
+  line-height: 1.6rem;
+  letter-spacing: 3px;
+
+  color: var(--loghi);
 }
 .card__details ul {
   list-style: none;
@@ -93,8 +156,10 @@
   margin: 0 auto;
 }
 .card__details ul li {
-  text-align: center;
-  font-size: 1.5rem;
+  color: var(--loghi);
+  font-family: "Gotham_Book";
+  text-align: left;
+  font-size: 1rem;
   padding: 1rem;
 }
 .card__details ul li:not(last-child) {
@@ -122,9 +187,8 @@
   letter-spacing: 5px;
   margin-top: 30px;
 }
-.card__price-value {
-  font-size: 6rem;
-  font-weight: 100;
+
+.card__details {
 }
 
 /* CLIENTI */
@@ -172,7 +236,8 @@
 }
 
 @media (max-width: 1200px) {
-  .card-rotate {
+  .card-rotate,
+  .card-rotate2 {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -184,13 +249,32 @@
 }
 
 @media (max-width: 768px) {
-  .card-rotate {
+  .card-rotate,
+  .card-rotate2 {
     grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .card,
+  .card__side {
+    height: 30rem;
   }
 }
 
 @media (max-width: 442px) {
   #sezione-testo-template.full {
     width: 90%;
+  }
+  .card__details {
+    font-family: "Gotham_Book";
+    height: none;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    width: 95%;
+    margin: 0 auto;
+    padding: 10px;
+    line-height: 1.2rem;
+    letter-spacing: 2px;
+    color: var(--loghi);
   }
 }
