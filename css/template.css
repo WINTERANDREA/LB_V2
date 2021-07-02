@@ -84,6 +84,12 @@
   align-items: center;
 }
 
+.paragrafo-img-titolo.wb {
+  display: grid;
+  grid-template-columns: 50% 40%;
+  align-items: center;
+}
+
 .paragrafo-img-titolo {
   margin-left: -200px;
 }
@@ -94,7 +100,7 @@
 
 .titolo-sezione-big {
   color: var(--main-lightblue);
-  font-size: 90px;
+  font-size: 70px;
   text-transform: uppercase;
   text-align: right;
   line-height: 95%;
@@ -102,7 +108,7 @@
 
 .titolo-sezione-medium {
   color: var(--main-lightblue);
-  font-size: 80px;
+  font-size: 60px;
   text-transform: uppercase;
   text-align: right;
   line-height: 80%;
