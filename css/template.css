@@ -1,12 +1,13 @@
-/* .container {
-  background-image: url(../media/template/BG_Partnership_nologo.svg);
+.container {
+  /* background-image: url(../media/template/BG_Partnership_nologo.svg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
   -o-background-size: cover;
   -moz-background-size: cover;
-  -webkit-background-size: cover;
-} */
+  -webkit-background-size: cover; */
+  background: cornflowerblue;
+}
 
 .container.about {
   background: none;
