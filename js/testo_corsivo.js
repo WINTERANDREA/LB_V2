@@ -3,6 +3,7 @@
   const testoSocrate = document.querySelector('.activate-socrate');
   observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
+      console.log(entry.intersectionRatio)
       if (entry.intersectionRatio > 0) {
     anime({
       targets: '#testoCorsivoSocrate path',

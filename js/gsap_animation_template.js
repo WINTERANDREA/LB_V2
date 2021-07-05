@@ -3,8 +3,8 @@
 gsap.registerPlugin(ScrollTrigger);
 
 
-gsap.from(".titolo-sezione", {scrollTrigger: {trigger:".titolo-sezione", start:"top 80%"}, duration: 1, y:200, opacity:0})
-gsap.from(".svg-titolo", {scrollTrigger: {trigger:".titolo-sezione", start:"top 80%"}, duration: 1, scale:0, opacity:0})
+gsap.from(".titolo-sezione", {scrollTrigger: {trigger:".titolo-sezione", start:"top bottom"}, duration: 1, y:200, opacity:0})
+gsap.from(".svg-titolo", {scrollTrigger: {trigger:".titolo-sezione", start:"top bottom"}, duration: 1, scale:0, opacity:0})
 gsap.from(".paragrafo-1", {scrollTrigger: {trigger:".paragrafo-1", start:"top 80%"}, duration: 1, y:200, opacity:0})
 gsap.from(".paragrafo-1-svg", {scrollTrigger: {trigger:".paragrafo-1-svg", start:"top 80%"}, duration: 1, x:-200, opacity:0})
 gsap.from(".svg-1", {scrollTrigger: {trigger:".svg-1", start:"top 80%"}, duration: 1, x:200, opacity:0})
@@ -22,7 +22,7 @@ gsap.from(".paragrafo-5", {scrollTrigger: {trigger:".paragrafo-5", start:"top 80
 gsap.from("#myform", {scrollTrigger: {trigger:"#myform", start:"top 80%"}, duration: 1, y:200, opacity:0})
 gsap.from(".btn-template", {scrollTrigger: {trigger:".btn-template", start:"top 80%"}, duration: 1, y:200, opacity:0})
 gsap.from(".link-sito", {scrollTrigger: {trigger:".link-sito", start:"top 80%"}, duration: 1, y:200, opacity:0})
-gsap.from("#referenze", {scrollTrigger: {trigger:"#referenze", start:"top 50%"}, duration: 1, x:-900, opacity:0, rotate: -10})
+gsap.from("#referenze", {scrollTrigger: {trigger:"#referenze", start:"top 60%"}, duration: 1, x:-900, opacity:0, rotate: -10})
 
 
 

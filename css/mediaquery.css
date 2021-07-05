@@ -96,7 +96,7 @@
   }
 
   .titolo-sezione-big {
-    font-size: 130px;
+    font-size: 90px;
   }
 
   .titolo-sezione,
@@ -501,10 +501,6 @@
 
   .titolo-sezione {
     margin-top: 70px;
-  }
-
-  .titolo-sezione-big {
-    font-size: 80px;
   }
 
   .paragrafo-img-titolo.long-text {
