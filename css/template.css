@@ -1,4 +1,4 @@
-.container {
+/* .container {
   background-image: url(../media/template/BG_Partnership_nologo.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -6,8 +6,7 @@
   -o-background-size: cover;
   -moz-background-size: cover;
   -webkit-background-size: cover;
-  height: 100%;
-}
+} */
 
 .container.about {
   background: none;
