@@ -20,7 +20,7 @@
 .jobs-avatar-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 100px;
+  gap: 30px;
   margin-top: 100px;
   margin-left: -150px;
 }
@@ -31,9 +31,9 @@
 .jobs-avatar-text {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 20px;
-  margin-top: -100px;
+  margin-top: -30px;
   opacity: 0;
 }
 
@@ -47,7 +47,7 @@
 
 .jobs-avatar-text span {
   font-size: 1.6rem;
-  font-family: "Gotham_Thin";
+  font-family: "Gotham_Medium";
   color: var(--main-lightblue);
 }
 
@@ -65,13 +65,13 @@
   }
 
   to {
-    transform: translateY(-50px);
+    transform: translateY(-30px);
   }
 }
 
 @keyframes slidedown {
   from {
-    transform: translateY(-50px);
+    transform: translateY(-30px);
     opacity: 0;
   }
 
@@ -84,8 +84,8 @@
 #myform {
   width: 100%;
   background: #c6def069;
-  padding: 50px;
-  border-radius: 50px;
+  padding: 15px;
+  border-radius: 5px;
   border: 2px solid var(--loghi-text);
   box-shadow: 7px -5px 8px -2px var(--loghi-text);
 }
@@ -236,10 +236,10 @@
 }
 
 .jobs-info h2 {
-  font-size: 80px;
-  line-height: 80px;
+  font-size: 60px;
+  line-height: 60px;
   font-family: "Gotham_Bold";
-  color: var(--main-lightblue);
+  color: var(--main-blue);
 }
 
 .jobs-description {
@@ -256,6 +256,9 @@
   color: var(--cyan);
 }
 
+.jobs-img {
+  margin-bottom: 30px;
+}
 .jobs-form {
   display: flex;
   flex-direction: column;
@@ -274,7 +277,6 @@
 
 .arrow-back svg {
   width: 50px;
-  margin-left: 50px;
 }
 
 .arrow-back:hover svg path {
@@ -321,8 +323,8 @@
     width: 100%;
   }
   .jobs-info h2 {
-    font-size: 60px;
-    line-height: 60px;
+    font-size: 50px;
+    line-height: 50px;
   }
 
   .jobs-form,
