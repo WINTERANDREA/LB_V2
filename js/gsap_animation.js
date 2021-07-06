@@ -2,7 +2,7 @@ let tl = gsap.timeline({scrollTrigger:{
   trigger:".about-testo",
   start:"top bottom",
 }})
-.from(".about-testo", {y:150, opacity:0, duration:2})
+.from(".about-testo", {y:150, opacity:0, duration:1})
 .from(".btn-about", { opacity:0, y:150, duration:1})
 
 

@@ -104,9 +104,6 @@
   text-align: right;
   text-transform: uppercase;
   color: #fff;
-  /* position: absolute; */
-  /* top: 12rem; */
-  /* right: 2rem; */
   width: 100%;
   margin-bottom: 45px;
 }
@@ -188,9 +185,6 @@
   margin-top: 30px;
 }
 
-.card__details {
-}
-
 /* CLIENTI */
 .card-clienti-content {
   height: 100%;
@@ -232,6 +226,11 @@
   }
   .card__side {
     height: 44rem;
+  }
+  .card__details {
+    padding: 0px;
+    line-height: 2rem;
+    font-size: 1.4rem;
   }
 }
 
