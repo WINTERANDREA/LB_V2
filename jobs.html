@@ -1693,9 +1693,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/MotionPathPlugin.min.js"></script>
   <script src="js/brain-animation-template.js"></script>
   <script src="js/icone_footer.js"></script>
-  <script src="js/navigation-menu.js"></script>
-  <script src="js/privacy-legal.js"></script>
-  <script src="js/jobs.js"></script>
   <script>
     gsap.registerPlugin(ScrollTrigger);
 
@@ -1706,9 +1703,13 @@
 
 
     var n = [1, 2, 3, 4]
-    n.forEach(el => gsap.from("#job-" + el, { scrollTrigger: { trigger: "#job-" + el, start: "top 50%" }, duration: 1, scale: 1.5, opacity: 0, delay: .5 }))
+    n.forEach(el => gsap.from("#job-" + el, { scrollTrigger: { trigger: "#job-" + el, start: "top 50%" }, duration: 1, scale: 1.3, opacity: 0, delay: .5 }))
 
   </script>
+  <script src="js/navigation-menu.js"></script>
+  <script src="js/privacy-legal.js"></script>
+  <script src="js/jobs.js"></script>
+
 </body>
 
 </html>
