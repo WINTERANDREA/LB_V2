@@ -1705,9 +1705,9 @@
     var n = [1, 2, 3, 4]
     n.forEach(el => {
       if (el % 2 == 0) {
-        gsap.from("#job-" + el, { scrollTrigger: { trigger: "#job-" + el, start: "top 50%" }, duration: 1, x: 500, opacity: 0, delay: .5 })
+        gsap.from("#job-" + el, { scrollTrigger: { trigger: "#job-" + el, start: "top 50%" }, duration: 1, x: 500, opacity: 0 })
       } else {
-        gsap.from("#job-" + el, { scrollTrigger: { trigger: "#job-" + el, start: "top 50%" }, duration: 1, x: -500, opacity: 0, delay: .5 })
+        gsap.from("#job-" + el, { scrollTrigger: { trigger: "#job-" + el, start: "top 50%" }, duration: 1, x: -500, opacity: 0 })
       }
     })
 
