@@ -83,11 +83,11 @@
 
 #myform {
   width: 100%;
-  background: #c6def069;
-  padding: 15px;
-  border-radius: 5px;
-  border: 2px solid var(--loghi-text);
-  box-shadow: 7px -5px 8px -2px var(--loghi-text);
+  background: transparent;
+  padding: 25px;
+  border-radius: 15px;
+  /* border: 2px solid var(--loghi-text); */
+  box-shadow: 0px 0px 7px 0px var(--loghi-text);
 }
 .form-block {
   display: flex;
@@ -118,7 +118,7 @@
 .form-group input:focus,
 .form-group select:focus,
 .form-group textarea:focus {
-  outline: 1px solid var(--main-lightblue);
+  outline: 1px solid var(--cyan);
 }
 
 .form-group textarea {
@@ -134,15 +134,16 @@
   font-family: "Gotham_Bold";
   font-size: 16px;
   text-transform: uppercase;
-  color: var(--main-lightblue);
+  color: var(--cyan);
 }
 
 .form-group input,
 .form-group textarea,
 .form-group select {
   background-color: transparent;
-  border: 1px solid #666;
+  border: 1px solid #ccc;
   height: 70px;
+  color: var(--loghi-text);
 }
 
 /* MODAL-jobs JOBS */
@@ -280,11 +281,11 @@
 }
 
 .arrow-back:hover svg path {
-  fill: #65b9f5;
+  fill: #c6e7ff;
 }
 
 .arrow-back:hover span {
-  color: #65b9f5;
+  color: #c6e7ff;
 }
 
 .arrow-back span {
