@@ -26,8 +26,7 @@
   border-radius: 3px;
   overflow: hidden;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #fff;
 }
 .card__side--front {
   transform: rotateY(180deg);
@@ -36,46 +35,70 @@
 /* FRONT ABOUT */
 .card__side--front-1 {
   background-image: url(../media/about/Palette\ su\ di\ noi_vuote2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card__side--front-2 {
   background-image: url(../media/about/Palette\ su\ di\ noi_vuote4.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card__side--front-3 {
   background-image: url(../media/about/Palette\ su\ di\ noi_vuote6.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card__side--front-4 {
   background-image: url(../media/about/Palette\ su\ di\ noi_vuote8.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card__side--front-5 {
   background-image: url(../media/about/Palette\ su\ di\ noi_vuote10.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .card__side--front-6 {
   background-image: url(../media/about/Palette\ su\ di\ noi_vuote12.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 /* BACK ABOUT */
 .card__side--back-1 {
   background-image: url(../media/about/Palette\ su\ di\ noi_vuote.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .card__side--back-2 {
   background-image: url(../media/about/Palette\ su\ di\ noi_vuote3.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .card__side--back-3 {
   background-image: url(../media/about/Palette\ su\ di\ noi_vuote5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .card__side--back-4 {
   background-image: url(../media/about/Palette\ su\ di\ noi_vuote7.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .card__side--back-5 {
   background-image: url(../media/about/Palette\ su\ di\ noi_vuote9.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .card__side--back-6 {
   background-image: url(../media/about/Palette\ su\ di\ noi_vuote11.png);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .card:hover .card__side--back {
   transform: rotateY(-180deg);
