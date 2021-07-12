@@ -27,6 +27,16 @@
   <meta property="og:locale" content="it_IT" />
   <!-- <meta property="og:locale:alternate" content="en_GB" /> -->
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0HNZ8ZHVS7"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-0HNZ8ZHVS7');
+  </script>
+
   <link rel="icon" href="/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/mediaquery.css">
@@ -34,7 +44,7 @@
 </head>
 
 <body>
-  <!-- HERO -->
+
   <div class="container">
 
     <!-- NAVIGATION MENU -->
@@ -44,8 +54,8 @@
     <div class="hr"></div>
     <div class="menu">
       <div class="menu-left">
-        <div id="menu-logo" class="menu-logo"><a href="/index.html"><img src="media/hero/logo_liberobit.svg"
-              alt="LiberoBit srl" /></a></div>
+        <div class="menu-logo"><a href="/index.html"><img src="media/hero/logo_liberobit.svg" alt="LiberoBit srl" /></a>
+        </div>
         <div class="menu-links">
           <div class="menu-link" data-collapse="">
             <button class="acc-block">Soluzioni in cloud <span>01</span>
@@ -107,9 +117,9 @@
           <div class="socials">
             <div><span class="title">Seguici</span><br /><br /></div>
             <div class="circle2-group">
-              <div><a id="linkedin" class="circle2"
-                  href="https://www.linkedin.com/company/libero-bit/?originalSubdomain=it" target="_blank"></a></div>
-              <div><a id="facebook" class="circle2" href="https://www.facebook.com/Liberobit/?ref=page_internal"
+              <div><a class="circle2 linkedin" href="https://www.linkedin.com/company/libero-bit/?originalSubdomain=it"
+                  target="_blank"></a></div>
+              <div><a class="circle2 facebook" href="https://www.facebook.com/Liberobit/?ref=page_internal"
                   target="_blank"></a><br /><br /></div>
             </div>
           </div>
@@ -1231,14 +1241,13 @@
     <section id="footer" class="sfondo-footer">
 
       <div class="icon-wrapper">
-        <a id="linkedin" class="circle" href="https://www.linkedin.com/company/libero-bit/?originalSubdomain=it"
+        <a class="circle linkedin" href="https://www.linkedin.com/company/libero-bit/?originalSubdomain=it"
           target="_blank"></a>
-        <a id="whatsapp" class="circle"></a>
-        <a id="facebook" class="circle" href="https://www.facebook.com/Liberobit/?ref=page_internal"
-          target="_blank"></a>
-        <a id="skype" class="circle" href="skype:liberobi?call"></a>
-        <a id="email" class="circle" href="mailto:info@liberobit.it"></a>
-        <a id="telephone" class="circle" href="tel:+390240047923"></a>
+        <a class="whatsapp circle"></a>
+        <a class="facebook circle" href="https://www.facebook.com/Liberobit/?ref=page_internal" target="_blank"></a>
+        <a class="skype circle" href="skype:liberobi?call"></a>
+        <a class="email circle" href="mailto:info@liberobit.it"></a>
+        <a class="telephone circle" href="tel:+390240047923"></a>
       </div>
 
 
@@ -1309,7 +1318,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/MotionPathPlugin.min.js"></script>
-  <script src="js/brain-animation-template.js"></script>
+  <script src="js/brain-animation.js"></script>
   <script src="js/testo_corsivo.js"></script>
   <script src="js/icone_footer.js"></script>
   <script src="js/gsap_animation.js"></script>

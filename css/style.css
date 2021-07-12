@@ -203,7 +203,7 @@ button.btn-link {
 
 /* MENU */
 
-#menu-logo {
+.menu-logo {
   position: absolute;
   top: 2%;
   left: 3%;
@@ -676,27 +676,27 @@ img {
   box-shadow: inset 3px 3px 10px 0px rgba(0, 0, 0, 0.6);
 }
 
-#linkedin {
+.linkedin {
   background: url(../media/icone/Linkedin_icon.svg) no-repeat center center / cover;
 }
 
-#whatsapp {
+.whatsapp {
   background: url(../media/icone/Whatapp_icon.svg) no-repeat center center / cover;
 }
 
-#facebook {
+.facebook {
   background: url(../media/icone/Facebook_icon.svg) no-repeat center center / cover;
 }
 
-#skype {
+.skype {
   background: url(../media/icone/Skype_icon.svg) no-repeat center center / cover;
 }
 
-#email {
+.email {
   background: url(../media/icone/Mail_icon.svg) no-repeat center center / cover;
 }
 
-#telephone {
+.telephone {
   background: url(../media/icone/Tel_icon.svg) no-repeat center center / cover;
 }
 

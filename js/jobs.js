@@ -124,3 +124,21 @@ function goBack(){
   jobsForm.style.display ="none"
   btnJobs.style.display ="flex"
 }
+
+/* ANIMAZIONE */
+ gsap.registerPlugin(ScrollTrigger);
+
+    gsap.from(".titolo-sezione", { scrollTrigger: { trigger: ".titolo-sezione", start: "top 80%" }, duration: 1, x: -200, opacity: 0 })
+    gsap.from(".sottotitolo-sezione", { scrollTrigger: { trigger: ".sottotitolo-sezione", start: "top 80%" }, duration: 1, x: -250, opacity: 0 })
+    gsap.from(".paragrafo-sezione", { scrollTrigger: { trigger: ".paragrafo-sezione", start: "top 80%" }, duration: 1, x: -250, opacity: 0 })
+    gsap.from("#referenze", { scrollTrigger: { trigger: "#referenze", start: "top 50%" }, duration: 1, x: -900, opacity: 0, rotate: -10 })
+
+
+    var n = [1, 2, 3, 4]
+    n.forEach(el => {
+      if (el % 2 == 0) {
+        gsap.from("#job-" + el, { scrollTrigger: { trigger: "#job-" + el, start: "top 50%" }, duration: 1, x: 500, opacity: 0 })
+      } else {
+        gsap.from("#job-" + el, { scrollTrigger: { trigger: "#job-" + el, start: "top 50%" }, duration: 1, x: -500, opacity: 0 })
+      }
+    })

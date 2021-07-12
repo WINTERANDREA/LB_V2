@@ -533,13 +533,6 @@
   .menu-link {
     padding: 20px;
   }
-  /* 
-  #menu-logo {
-    position: absolute;
-    top: 2%;
-    left: 5%;
-    width: 150px;
-  } */
 
   /* Hero */
   .hero {
@@ -875,7 +868,7 @@
   div.panel div:first-child {
     margin-top: 10px;
   }
-  #menu-logo {
+  .menu-logo {
     top: 3%;
     left: 4%;
     width: 150px;
